@@ -1,0 +1,302 @@
+.clearboth {
+    clear: both;
+}
+.kaira-upsell-btn {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-color: #4965A0;
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    color: #EBEBEB;
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 20px;
+    margin: 0 0 2px;
+    text-decoration: none;
+}
+.kaira-upsell-btn:hover {
+    color: #FFFFFF;
+    background-color: #517BC5;
+}
+
+.kaira-recommended-plugins {
+    margin: 10px 0;
+}
+.kaira-theme-options-wrap .ui-tabs-nav {
+	border-bottom: 1px solid #ccc;
+	height: 31px;
+	margin: 20px 0 0;
+	padding: 0;
+	max-width: 1442px;
+	min-width: 852px;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li {
+	display: block;
+	float: left;
+	margin: 0;
+	outline: none !important;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li a {
+	padding: 4px 20px 6px;
+	font-weight: bold;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li a {
+	border-style: solid;
+	border-color: #CCC #CCC #F9F9F9;
+	border-width: 1px 1px 0;
+	color: #ADADAD;
+	display: inline-block;
+	padding: 6px 22px 6px;
+	text-decoration: none;
+	margin: 0 -1px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-shadow: none;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li.ui-tabs-selected a,
+.kaira-theme-options-wrap .ui-tabs-nav li.ui-state-active a {
+	border-width: 1px;
+	color: #000000;
+	border-bottom: 1px solid #fcfcfc;
+	background-color: #fcfcfc;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li:last-child {
+    float: right;
+    
+}
+.kaira-theme-options-wrap .ui-tabs-nav li:last-child a {
+    padding: 2px 12px;
+    background-color: #829ACE;
+    color: #F3F3F3;
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+    right: 1px;
+}
+.kaira-theme-options-wrap .ui-tabs-nav li:last-child.ui-tabs-selected a,
+.kaira-theme-options-wrap .ui-tabs-nav li:last-child.ui-state-active a {
+    background-color: #4965A0;
+    color: #FFF;
+}
+.kaira-theme-options-wrap .ui-tabs-panel {
+	clear: both;
+	background-color: #fcfcfc;
+	border: 1px solid #CCC;
+	border-top: 0;
+	padding: 20px 20px 30px;
+	max-width: 1400px;
+	min-width: 810px;
+}
+.kaira-theme-options-wrap .ui-tabs-panel h3 {
+	font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	margin: 0;
+	padding: 0 0 5px;
+	line-height: 30px;
+	text-shadow: 0 1px 0 #fff;
+	color: #CCC;
+}
+.kaira-theme-options-wrap .ui-tabs-panel h4 {
+	margin: 0;
+	padding: 0 0 12px;
+	font: italic normal normal 20px/28px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	color: #949494;
+}
+.kaira-theme-options-wrap .wrap h3, .wrap table {
+	display: none;
+}
+td.kaira-heading-td {
+    margin-bottom: 0;
+    padding: 0 !important;
+    border-bottom: 1px solid #ECECEC;
+}
+.kaira-theme-options-wrap .form-table th,
+.kaira-theme-options-wrap .form-table td {
+    padding: 20px 0 25px;
+}
+.kaira-theme-options-wrap .form-table th {
+    min-width: 260px;
+}
+
+.kaira-theme-options-wrap .kaira-select {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    max-width: 340px;
+}
+.kaira-theme-options-wrap .kaira-media-upload {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    max-width: 620px;
+}
+.kaira-theme-options-wrap .media_upload_button {
+    background-color: #f7f7f7;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.5),0 1px 0 rgba(0,0,0,.1);
+    border: 1px solid #ccc;
+    width: 100px;
+    border-radius: 3px;
+    color: #686868;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+    vertical-align: top;
+    padding: 3px 20px 4px;
+    cursor: pointer;
+}
+.kaira-theme-options-wrap .media_upload_button:hover {
+    background-color: #F1F1F1;
+    border: 1px solid #C0C0C0;
+}
+.kaira-theme-options-wrap .media_upload_img_preview {
+    max-width: 150px;
+    height: auto;
+    vertical-align: top;
+}
+.kaira-theme-options-wrap .kaira-text,
+.kaira-theme-options-wrap .kaira-url {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    max-width: 800px;
+}
+.kaira-theme-options-wrap .kaira-number {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    max-width: 120px;
+}
+.kaira-theme-options-wrap .kaira-textarea {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    height: 240px;
+    max-width: 90%;
+}
+.kaira-theme-options-wrap .radio-option {
+    margin: 0 0 10px;
+}
+.kaira-theme-options-wrap .radio-option input {
+    position: relative;
+    
+    top: 2px;
+}
+
+.kaira-theme-options-wrap .color-picker-wrapper {
+    display: inline-block;
+    
+    position: relative;
+}
+.kaira-theme-options-wrap .color-picker-wrapper .color-indicator {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    vertical-align: top;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #C4C4C4;
+    border-right: 1px solid #A7A7A7;
+}
+.kaira-theme-options-wrap .color-picker-wrapper .color_picker {
+    padding: 3px 10px 3px 40px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 100%;
+    max-width: 140px;
+}
+
+.kaira-theme-options-wrap span.description {
+    display: block;
+    padding: 5px 20px 10px 0px;
+    font-size: 12px;
+    font-style: normal;
+    color: #838383;
+}
+.kaira-theme-options-wrap span.description b {
+    color: #000;
+}
+.kaira-theme-options-wrap span.description big {
+    color: #111;
+}
+.kaira-theme-options-wrap .option-description {
+    font-size: 12px;
+    font-style: normal;
+    color: #838383;
+}
+.kaira-theme-options-wrap p.submit {
+    margin: 20px 0 0;
+    padding: 0;
+    max-width: 1442px;
+    text-align: right;
+}
+
+.kaira-theme-options-wrap .premium-upsell-wrap h4 {
+    margin: 15px 0 14px;
+    padding: 0;
+    font-size: 16px;
+}
+.kaira-theme-options-wrap .premium-upsell-wrap h5 {
+    margin: 20px 0 25px;
+    padding: 0;
+    font: italic normal normal 15px/28px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    color: #949494;
+}
+.premium-plugin-block {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+    margin: 0 15px 25px 0;
+    padding: 6px;
+    background-color: #F7F7F7;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.premium-plugin-block-desc {
+    font-size: 12px;
+    padding: 4px 2px;
+    color: #858585;
+}
+
+.premium-albar-wrap {
+    
+}
+.premium-albar-block {
+    border-bottom: 1px solid #E2E2E2;
+    margin: 0 0 40px;
+    padding: 0 0 35px;
+}
+.premium-albar-block-left {
+    width: 22%;
+    float: left;
+}
+.premium-albar-block-left h6 {
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 14px;
+}
+.premium-albar-block-right {
+    width: 78%;
+    float: left;
+}
+.premium-albar-block-right img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    height: auto;
+}

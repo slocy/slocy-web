@@ -1,0 +1,998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Albar\n"
+"POT-Creation-Date: 2015-03-20 08:25+0200\n"
+"PO-Revision-Date: 2015-03-20 08:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:24 no-results.php:22 no-results.php:31
+msgid "Return Home"
+msgstr ""
+
+#: 404.php:25 no-results.php:23 no-results.php:32
+msgid "Search"
+msgstr ""
+
+#: archive.php:23
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:40
+msgid "Asides"
+msgstr ""
+
+#: archive.php:43
+msgid "Images"
+msgstr ""
+
+#: archive.php:46
+msgid "Videos"
+msgstr ""
+
+#: archive.php:49
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:52
+msgid "Links"
+msgstr ""
+
+#: archive.php:55 sidebar.php:40
+msgid "Archives"
+msgstr ""
+
+#: comments.php:28 comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:29 comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: content-page.php:14 content-single.php:13 image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:19 content-single.php:52 image.php:33 image.php:77
+#: includes/inc/template-tags.php:71 includes/inc/template-tags.php:90
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:21 content-single.php:24 content.php:56 content.php:64
+#: includes/blog/blog-standard.php:67 includes/blog/blog-standard.php:75
+msgid ", "
+msgstr ""
+
+#: content-single.php:29
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:31
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:37
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:39
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content.php:44 includes/blog/blog-standard.php:55
+msgid "0 comments"
+msgstr ""
+
+#: content.php:44 includes/blog/blog-standard.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:44 includes/blog/blog-standard.php:55
+msgid "% Comments"
+msgstr ""
+
+#: content.php:59 includes/blog/blog-standard.php:70
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:67 includes/blog/blog-standard.php:78
+#, php-format
+msgid "Tags %1$s"
+msgstr ""
+
+#: content.php:72 includes/blog/blog-standard.php:83
+msgid "Read More"
+msgstr ""
+
+#: functions.php:51
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:89
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:97
+msgid "Alba Footer"
+msgstr ""
+
+#: functions.php:320
+#, php-format
+msgid ""
+"<p>Install the plugins we at <a href=\"http://www.kairaweb.com/\" target="
+"\"_blank\">Kaira</a> recommended | <a href=\"%1$s\">Hide Notice</a></p>"
+msgstr ""
+
+#: functions.php:321
+msgid "SiteOrigin's Page Builder"
+msgstr ""
+
+#: functions.php:322
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:323
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: image.php:22
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:68
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:70
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:72
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:74
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: includes/headers/header-layout-one.php:18
+msgid "My Account"
+msgstr ""
+
+#: includes/headers/header-layout-one.php:20
+msgid "Login"
+msgstr ""
+
+#: includes/headers/header-layout-one.php:20
+msgid "Sign In / Register"
+msgstr ""
+
+#: includes/headers/header-layout-one.php:32
+msgid "Email Us"
+msgstr ""
+
+#: includes/headers/header-layout-one.php:43
+#: includes/inc/woocommerce-inc.php:9
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/headers/header-layout-one.php:81
+msgid "Menu"
+msgstr ""
+
+#: includes/headers/homepage-slider.php:56
+msgid "Demo Slide One"
+msgstr ""
+
+#: includes/headers/homepage-slider.php:66
+msgid "Demo Slide Two"
+msgstr ""
+
+#: includes/inc/extras.php:73
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/inc/social-links.php:3
+msgid "Send Us an Email"
+msgstr ""
+
+#: includes/inc/social-links.php:7
+msgid "Contact Us on Skype"
+msgstr ""
+
+#: includes/inc/social-links.php:11
+msgid "Find Us on Facebook"
+msgstr ""
+
+#: includes/inc/social-links.php:15
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: includes/inc/social-links.php:19
+msgid "Find Us on Google Plus"
+msgstr ""
+
+#: includes/inc/social-links.php:23
+msgid "View our YouTube Channel"
+msgstr ""
+
+#: includes/inc/social-links.php:27
+msgid "Follow Us on Instagram"
+msgstr ""
+
+#: includes/inc/social-links.php:31
+msgid "Pin Us on Pinterest"
+msgstr ""
+
+#: includes/inc/social-links.php:35
+msgid "Find Us on LinkedIn"
+msgstr ""
+
+#: includes/inc/social-links.php:39
+msgid "Find Us on Tumblr"
+msgstr ""
+
+#: includes/inc/social-links.php:43
+msgid "Find Us on Flickr"
+msgstr ""
+
+#: includes/inc/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: includes/inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: includes/inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/inc/template-tags.php:71
+msgid "Pingback:"
+msgstr ""
+
+#: includes/inc/template-tags.php:81
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: includes/inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/inc/template-tags.php:180
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a><span class=\"byline"
+"\"><span class=\"author vcard\"> <i class=\"fa fa-user\"></i> <a class=\"url "
+"fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: includes/inc/template-tags.php:185
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:9
+msgid "Albar Carousel"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:11
+msgid "Displays Posts in a Carousel Style"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:65
+msgid "0"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:65
+#: includes/widgets/alba-carousel.php:119
+msgid "1"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:65
+msgid "%"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:111
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:113
+msgid "Enter the ID's of the <a href=\""
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:117
+msgid "Columns"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:120
+msgid "2"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:121
+msgid "3"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:122
+msgid "4"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:127
+msgid "Show Featured Image"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:129
+#: includes/widgets/alba-carousel.php:137
+#: includes/widgets/alba-carousel.php:145
+#: includes/widgets/alba-carousel.php:159
+msgid "On"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:130
+#: includes/widgets/alba-carousel.php:138
+#: includes/widgets/alba-carousel.php:146
+#: includes/widgets/alba-carousel.php:160
+msgid "Off"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:135
+msgid "Show Title"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:143
+msgid "Show Post Excerpt"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:151
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:153
+msgid ""
+"Enter the character length you want the excerpt to be. Default is 200 "
+"characters."
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:157
+msgid "Show Post Meta"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:165
+msgid "Carousel Pagination"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:167
+msgid "Numbers"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:168
+msgid "Dots"
+msgstr ""
+
+#: includes/widgets/alba-carousel.php:169 includes/widgets/alba-icon.php:81
+msgid "None"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:10
+msgid "Albar Heading"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:12
+msgid "Displays an Alba styled heading."
+msgstr ""
+
+#: includes/widgets/alba-heading.php:52 includes/widgets/alba-icon.php:48
+msgid "Icon Name"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:54 includes/widgets/alba-icon.php:50
+msgid ""
+"Select the icon from <a href=\"http://fortawesome.github.io/Font-Awesome/"
+"cheatsheet/\" target=\"_blank\">Font Awesome</a>, select the text name and "
+"add it here. Eg: \"fa-glass\"."
+msgstr ""
+
+#: includes/widgets/alba-heading.php:58 includes/widgets/alba-heading.php:64
+msgid "Heading Text"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:60
+msgid ""
+"Add <a href=\"http://www.tizag.com/htmlT/htmlbold.php\" target=\"_blank"
+"\">Bold Tags</a> around words to make them take on the theme main color"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:69
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:71
+msgid "Lined heading"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:72
+msgid "Title heading"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:77
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:79
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:80
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:81
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:82
+msgid "Extra Large"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:87
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:89 includes/widgets/alba-icon.php:90
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:90 includes/widgets/alba-icon.php:91
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/alba-heading.php:91 includes/widgets/alba-icon.php:92
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:10
+msgid "Albar Icon"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:12
+msgid "Displays a Font Awesome Icon of your choice."
+msgstr ""
+
+#: includes/widgets/alba-icon.php:54
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:56
+msgid ""
+"Enter the hash value for the background color of the icon. Eg: "
+"\"#000000\" (Include the \"#\"\")"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:60
+msgid "Icon Color"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:62
+msgid ""
+"Enter the hash value for the color of the icon. Eg: \"#000000\" (Include the "
+"\"#\"\")"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:66
+msgid "Icon Size"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:68
+msgid "18px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:69
+msgid "26px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:70
+msgid "34px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:71
+msgid "48px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:72
+msgid "66px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:73
+msgid "86px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:74
+msgid "100px"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:79
+msgid "Icon Style"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:82
+msgid "Round"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:83
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/alba-icon.php:88
+msgid "Icon Alignment"
+msgstr ""
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:22
+msgid "Slider Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:23
+msgid "Styling Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:24
+msgid "Blog Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:25
+msgid "Social Links"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:26
+msgid "Website Text"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:28
+msgid "Kaira"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:67
+msgid "ALBAR Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:81
+msgid "Kaira Setting"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:82
+msgid "This is a default description."
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:115
+msgid "Albar Theme Settings"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:116
+msgid "Install <a href=\""
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:118
+msgid "Theme options updated."
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:136
+msgid "Save Changes"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:251
+msgid "Upgrade to premium to get all features"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:276
+msgid "Website Layout"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:277
+msgid "Select if you'd like the layout to be Full Width or Boxed"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:286
+msgid "Favicon"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:287
+msgid ""
+"Upload a favicon to your website, this needs to be 16 pixels by 16 pixels"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:301 settings/tpl/upsell-page.php:18
+msgid "Header Layout"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:302
+#: settings/class.kaira-theme-settings.php:316
+#: settings/class.kaira-theme-settings.php:348
+#: settings/class.kaira-theme-settings.php:476
+#: settings/class.kaira-theme-settings.php:617
+msgid "http://sllwi.re/p/Eu"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:308
+msgid "Header Search"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:309
+msgid "Select this to show the search in the header"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:315 settings/tpl/upsell-page.php:32
+msgid "Sticky Header"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:326
+msgid "Enable Slider"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:327
+msgid ""
+"Click to enable the default homepage slider<br /><br />See <a href=\"http://"
+"demo.kairaweb.com/albar/installing-premium/albar-default-slider/\" target="
+"\"_blank\">instructions here</a> on setting up the default slider"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:340
+msgid "Slider Categories"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:341
+#: settings/class.kaira-theme-settings.php:483
+msgid "Enter the ID of the <a href=\""
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:347 settings/tpl/upsell-page.php:45
+msgid "Slider Transitions"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:354
+msgid "Circular slider"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:355
+msgid "Select if the slider should be circular"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:361
+msgid "Infinite slider"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:362
+msgid "Select if the slider should be infinite"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:368
+msgid "Show slider Pagination"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:369
+msgid "Click to display slider pagination"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:375
+msgid "Scroll the slider automatically"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:376
+msgid "Click to scroll the slider automatically"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:382
+msgid "Enable slider links"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:383
+msgid ""
+"Select if you want the slides to link to their post page<br /><br />See here "
+"how to <a href=\"http://demo.kairaweb.com/albar/installing-premium/removing-"
+"the-slider-title/\" target=\"_blank\">remove the slider titles</a>"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:392
+msgid "Main Color"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:393
+msgid "This is the color of buttons, etc around the site. Default: #4965A0"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:399
+msgid "Main Hover Color"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:400
+msgid ""
+"This is the hover color for buttons, etc around the site. Default: #3e578b"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:414
+msgid "Body font URL"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:415
+#: settings/class.kaira-theme-settings.php:436
+msgid ""
+"Enter ONLY the fonts URL here. Eg: link href='<b><big> //fonts.googleapis."
+"com/css?family=Open+Sans:400italic,400 </big></b>' rel='stylesheet' "
+"type='text/css'"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:421
+msgid "Body font name"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:422
+msgid ""
+"Enter the FULL name. Eg:<b><big> font-family: 'Open Sans', sans-serif; </"
+"big></b>"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:427
+msgid "Body font color"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:428
+msgid "Select a color for the body font. Default: #7B7D80"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:435
+msgid "Heading font URL"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:442
+msgid "Heading font name"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:443
+msgid ""
+"Enter the FULL name. Eg:<b><big> font-family: 'Roboto', sans-serif; </big></"
+"b>"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:448
+msgid "Heading font color"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:449
+msgid "Select a color for the body font. Default: #5A5A5A"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:462
+msgid "Custom CSS"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:463
+msgid "Add Custom CSS to add your own styling to the Theme"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:475 settings/tpl/upsell-page.php:58
+msgid "Blog Layout"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:482
+msgid "Blog Categories"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:489
+msgid "Blog Page Title"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:490
+msgid "Enter the title you want for the blog page."
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:496
+msgid "Blog Posts Per Page"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:497
+msgid "Enter the number of posts you'd like to show per page"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:507
+#: settings/class.kaira-theme-settings.php:595
+msgid "Email Address"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:514
+msgid "Skype"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:521
+msgid "Facebook"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:528
+msgid "Twitter"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:535
+msgid "Google Plus"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:542
+msgid "YouTube"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:549
+msgid "Instagram"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:556
+msgid "Pinterest"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:563
+msgid "LinkedIn"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:570
+msgid "Tumblr"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:577
+msgid "Flickr"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:588
+msgid "Address"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:602
+msgid "Phone Number"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:616
+msgid "Footer Copy Text"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:629
+msgid "404 Error Page Heading"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:630
+msgid "Enter the heading for the 404 Error page"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:635
+msgid "Error 404 Message"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:636
+msgid "Enter the default text on the 404 error page (Page not found)"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:650
+msgid "No Search Results"
+msgstr ""
+
+#: settings/class.kaira-theme-settings.php:651
+msgid "Enter the default text for when no search results are found"
+msgstr ""
+
+#: settings/tpl/upsell-page.php:11
+msgid ""
+"<a href=\"http://sllwi.re/p/Eu\" target=\"_blank\">Upgrade to Albar Premium</"
+"a> to get all the features for the Albar theme."
+msgstr ""
+
+#: settings/tpl/upsell-page.php:20
+msgid "Have the option to select between 2 different header layouts."
+msgstr ""
+
+#: settings/tpl/upsell-page.php:34
+msgid ""
+"Upgrade to enable the sticky header option that keeps the header at the top "
+"of the browser and re-sizes to be smaller."
+msgstr ""
+
+#: settings/tpl/upsell-page.php:47
+msgid ""
+"Enable the options to change the transition effect on the home page slider."
+msgstr ""
+
+#: settings/tpl/upsell-page.php:60
+msgid "Select between 2 different blog layouts, standard and grid"
+msgstr ""
+
+#: settings/tpl/upsell-page.php:71
+msgid "Extra WooCommerce Styling"
+msgstr ""
+
+#: settings/tpl/upsell-page.php:73
+msgid "Premium version includes some extra WooCommerce styling"
+msgstr ""
+
+#: sidebar.php:47
+msgid "Meta"
+msgstr ""

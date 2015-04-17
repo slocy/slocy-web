@@ -1,0 +1,45 @@
+
+#customize-theme-controls #accordion-section-topshop-styling h3:hover,
+#customize-theme-controls #accordion-section-topshop-website h3:hover,
+#customize-theme-controls #accordion-section-topshop-layout h3:hover,
+#customize-theme-controls #accordion-section-topshop-slider h3:hover,
+#customize-theme-controls #accordion-section-topshop-blog h3:hover,
+#customize-theme-controls #accordion-section-topshop-social h3:hover,
+#customize-theme-controls #accordion-section-topshop-favicon h3:hover {
+    background-color: rgba(41, 166, 229, 0.3);
+}
+
+#customize-theme-controls #accordion-section-topshop-styling.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-website.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-layout.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-slider.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-blog.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-social.control-section.open h3,
+#customize-theme-controls #accordion-section-topshop-favicon.control-section.open h3 {
+    background-color: rgba(41, 166, 229, 0.3) !important;
+}
+
+.kaira-upsell {
+    padding: 10px 0 5px;
+}
+.kaira-upsell-title {
+    font-weight: 600;
+}
+.kaira-upsell-btn {
+    background-color: #29a6e5;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    margin: 8px 0 0;
+    padding: 8px 20px 10px;
+    color: #ECECEC;
+}
+.kaira-upsell-btn:hover {
+    background-color: #266ee4;
+    color: #FFF;
+}
+.kaira-upsell-desc {
+    font-size: 12px;
+    padding: 4px 0 0;
+}

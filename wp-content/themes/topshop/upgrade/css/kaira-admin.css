@@ -1,0 +1,21 @@
+.kaira-upgrade-page-wrap {
+    max-width: 1300px;
+}
+.kaira-upgrade-page-wrap #theme-settings-title a {
+    background-image: url(../images/kaira_logo.png);
+    display: block;
+    width: 250px;
+    height: 75px;
+}
+.kaira-page-description {
+    padding: 20px 0 0;
+}
+.kaira-upgrade-page-wrap .description {
+    padding: 0 0 20px;
+}
+.kaira-page-img {
+    margin: 0 0 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
