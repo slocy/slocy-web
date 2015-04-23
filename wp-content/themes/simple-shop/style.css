@@ -4,7 +4,7 @@
  * Description: Simple Shop is an easy to use storefront for your WooCommerce business. Display your products in a simple, clean, and modern layout. Simple Shop supports a custom homepage, archive pages, and blog posts. This theme is responsive, leverages the front-end Customizer and yet it's lightweight. Now supports live front-end text widget editing via Note. More info - http://wordpress.org/plugins/note/.
  * Author: Slocum Studio
  * Author URI: https://slocumthemes.com/
- * Version: 1.0.7
+ * Version: 1.1.0
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl.html
  * Tags: dark, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments, custom-background, custom-menu, editor-style, full-width-template, translation-ready
@@ -3281,6 +3281,45 @@ ul.woocommerce-error {
 
 .woocommerce .products .star-rating, .woocommerce-page .products .star-rating {
 	margin: 0 auto .5em;
+}
+
+.woocommerce table.shop_attributes {
+	border: 1px solid;
+	border-radius: 4px;
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-bottom: 1em;
+}
+
+.woocommerce table.shop_attributes tr {
+}
+
+.woocommerce table.shop_attributes th {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.15);
+	border: none;
+	/*border-radius: 4px 0 0 4px;*/
+	border-collapse: separate;
+}
+
+.woocommerce table.shop_attributes .alt th {
+	background: rgba(255, 255, 255, 0.10);
+}
+
+.woocommerce table.shop_attributes td {
+	padding: 0 5px;
+	color: #fff;
+	border: none;
+	/*border-radius: 0 4px 4px 0;*/
+	border-collapse: separate;
+}
+
+.woocommerce table.shop_attributes .alt td {
+	background: transparent;
+}
+
+.woocommerce mark {
+	color: #fff;
 }
 
 /* bbPress/BuddyPress */

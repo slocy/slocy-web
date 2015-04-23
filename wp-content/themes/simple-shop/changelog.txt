@@ -2,9 +2,22 @@
 Theme: Simple Shop
 Author: Slocum Themes/Slocum Design Studio
 Author URI: https://slocumthemes.com/
-Current Version: 1.0.7
+Current Version: 1.1.0
 ==========================================
 
+1.1.0 // April 16 2015
+----------------------
+- Update readme to add Social Media widget note
+
+1.0.9 // April 16 2015
+----------------------
+- Fix potential PHP fatal error due to sanitize_hex_color() not being defined outside of the Customizer
+  (added simple_shop_sanitize_hex_color() function)
+
+1.0.8 // April 15 2015
+----------------------
+- Adjusted WooCommerce Additional Information/Product Attributes table CSS
+- Adjusted WooCommerce <mark> CSS
 
 1.0.7 // April 08 2015
 ----------------------

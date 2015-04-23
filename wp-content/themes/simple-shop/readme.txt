@@ -1,3 +1,13 @@
+Readme:
+-------
+
+Social Media - Use the Social Media widget to display your social media in any sidebar.
+
+
+
+Attribution:
+------------
+
 /**
  * Font Awesome Web Font - http://fontawesome.io/
  * License: GPL Compatible (http://fontawesome.io/license/)

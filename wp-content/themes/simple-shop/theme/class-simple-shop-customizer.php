@@ -6,7 +6,7 @@ class Simple_Shop_Customizer {
 	/**
 	 * @var string
 	 */
-	public $version = '1.0.5';
+	public $version = '1.0.9';
 
 	/**
 	 * @var string, Transient name
@@ -345,7 +345,7 @@ class Simple_Shop_Customizer {
 
 			// If we have a primary color selected by the user
 			if ( ( $theme_mod_primary_color = $this->get_theme_mod( 'primary_color', $this->theme_mod_primary_color() ) ) ) {
-				$theme_mod_primary_color = sanitize_hex_color( $theme_mod_primary_color );
+				$theme_mod_primary_color = simple_shop_sanitize_hex_color( $theme_mod_primary_color );
 
 				$r .= '/* Primary Color */' . "\n";
 				$r .= 'a,' . "\n";

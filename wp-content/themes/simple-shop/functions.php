@@ -260,3 +260,23 @@ if ( ! function_exists( 'sds_copyright_branding' ) ) {
 		return sprintf( __( '<a href="%1$s">%2$s by Slocum Studio</a>', 'simple-shop' ), esc_url( 'https://slocumthemes.com/wordpress-themes/simple-shop-free/' ), $theme_name );
 	}
 }
+
+
+/**
+ * This function sanitizes hex color strings.
+ */
+function simple_shop_sanitize_hex_color( $color ) {
+	// Use the sanitize_hex_color() function if it exists
+	if ( function_exists( 'sanitize_hex_color' ) )
+		return sanitize_hex_color( $color );
+
+	// Fallback logic
+	if ( '' === $color )
+		return '';
+
+	// 3 or 6 hex digits, or the empty string.
+	if ( preg_match('|^#([A-Fa-f0-9]{3}){1,2}$|', $color ) )
+		return $color;
+
+	return null;
+}

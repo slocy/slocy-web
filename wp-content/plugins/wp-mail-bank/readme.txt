@@ -2,8 +2,8 @@
 Contributors: contact-banker, Gallery-Bank
 Tags: admin, ajax, email, gmail, mail, mail smtp, mailer, outgoing mail, phpmailer, plugin, Post, posts, privacy, security, sendmail, smtp, ssl, tls, wordpress smtp, wp smtp, wp-phpmailer, wp_mail, wp mail, mailer
 Requires at least: 2.7
-Tested up to: 4.1.1
-Stable tag: 1.13
+Tested up to: 4.1.2
+Stable tag: 1.14
 
 WP Mail Bank reconfigures the PHPMailer and make it more enhanced with advanced smtp settings options.
 
@@ -219,7 +219,12 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 2. Settings Page with SMTP as Transporder for sending Emails from your WordPress Site
 3. Send Test Email Screen
 4. Debugging Output Console Log
+
 == Changelog ==
+
+= 1.14 =
+
+* Added Compatible with WordPress 4.1.2
 
 = 1.13 =
 

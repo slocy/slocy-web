@@ -7,14 +7,9 @@ class Simple_Shop {
 	/**
 	 * @var string
 	 */
-	public $version = '1.0.7';
+	public $version = '1.1.0';
 
 	private static $instance; // Keep track of the instance
-
-	/**
-	 * @var EDD_SL_Theme_Updater, Instance of the EDD Software Licensing Theme Updater class
-	 */
-	protected $_updater;
 
 	/**
 	 * Function used to create instance of class.
