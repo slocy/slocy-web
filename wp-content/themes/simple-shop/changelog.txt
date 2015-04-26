@@ -2,8 +2,13 @@
 Theme: Simple Shop
 Author: Slocum Themes/Slocum Design Studio
 Author URI: https://slocumthemes.com/
-Current Version: 1.1.0
+Current Version: 1.1.1
 ==========================================
+
+
+1.1.1 // April 23 2015
+------------------------
+- Updated TGM Plugin Activation to version 2.4.1
 
 1.1.0 // April 16 2015
 ----------------------
