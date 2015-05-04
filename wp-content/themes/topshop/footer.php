@@ -20,7 +20,7 @@
         
 			<?php printf( __( '</div></div><div class="site-footer-bottom-bar"><div class="site-container"><div class="site-footer-bottom-bar-left"><a href="mailto:slocyweb@gmail.com">Contact Customer Service</a></div><div class="site-footer-bottom-bar-right">' ) ); ?>
             
-            <?php _e( 'Copyright @ ', 'Slocy' ); ?><a href="<?php echo esc_url( __( 'https://slocy.com/', 'Slocy.com' ) ); ?>"><?php printf( __( '%s', 'Slocy.com' ), 'Slocy.com' ); ?></a>
+            <?php _e( '&copy; 2015', 'Slocy.com' ); ?><a href="<?php echo esc_url( __( 'https://slocy.com/', 'Slocy.com' ) ); ?>"><?php printf( __( '%s', 'Slocy.com' ), 'Slocy.com' ); ?></a>
                 
 	        </div>
 	    </div>
