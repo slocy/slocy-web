@@ -18,9 +18,9 @@
             </ul>
             <div class="clearboth"></div>
         
-			<?php printf( __( '</div></div><div class="site-footer-bottom-bar"><div class="site-container"><div class="site-footer-bottom-bar-left">Theme: %1$s by %2$s', 'topshop' ), 'TopShop', '<a href="http://www.kairaweb.com/" rel="designer">Kaira</a></div><div class="site-footer-bottom-bar-right">' ); ?>
+			<?php printf( __( '</div></div><div class="site-footer-bottom-bar"><div class="site-container"><div class="site-footer-bottom-bar-left"><a href="mailto:slocyweb@gmail.com">Contact Customer Service</a></div><div class="site-footer-bottom-bar-right">' ) ); ?>
             
-            <?php _e( 'Proudly powered by ', 'TopShop' ); ?><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'topshop' ) ); ?>"><?php printf( __( '%s', 'topshop' ), 'WordPress' ); ?></a>
+            <?php _e( 'Copyright @ ', 'Slocy' ); ?><a href="<?php echo esc_url( __( 'https://slocy.com/', 'Slocy' ) ); ?>"><?php printf( __( '%s', 'Slocy' ), 'Slocy' ); ?></a>
                 
 	        </div>
 	    </div>
