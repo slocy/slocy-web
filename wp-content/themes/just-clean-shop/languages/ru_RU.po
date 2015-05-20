@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Just clean shop v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-17 16:25+0200\n"
-"PO-Revision-Date: 2015-04-13 18:47+0300\n"
+"PO-Revision-Date: 2015-04-30 22:18+0300\n"
 "Last-Translator: JustPX <mail@justpx.com>\n"
 "Language-Team: JustPX <mail@justpx.com>\n"
 "MIME-Version: 1.0\n"
@@ -31,31 +31,15 @@ msgstr "При поддержке"
 msgid "Theme"
 msgstr "Шаблон"
 
-#: functions.php:77
+#: functions.php:66
 msgid "Page"
 msgstr "Страница"
 
-#: functions.php:83
-msgid "Pages"
-msgstr "Страницы"
-
-#: functions.php:88
-msgid "Next page"
-msgstr "Следующая страница"
-
-#: functions.php:89
-msgid "Previous page"
-msgstr "Предыдущая страница"
-
-#: functions.php:106
+#: functions.php:85
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] "%d цена"
 msgstr[1] "%d цена"
-
-#: header.php:68
-msgid "Menu"
-msgstr "Меню"
 
 #: header.php:53
 msgid "Cart:"
@@ -69,15 +53,15 @@ msgstr "Ваша корзина"
 msgid "Read more..."
 msgstr "Читать далее..."
 
-#: index.php:13
+#: index.php:14
 msgid "Categories:"
 msgstr "Категории:"
 
-#: index.php:23
+#: index.php:24
 msgid "&laquo; Newer"
 msgstr "&laquo; Новые"
 
-#: index.php:24
+#: index.php:25
 msgid "Older &raquo;"
 msgstr "Старые &raquo;"
 
@@ -94,8 +78,8 @@ msgid "Categories "
 msgstr "Категории "
 
 #: functions.php:91
-msgid "Theme Help"
-msgstr "Theme Help"
+msgid "Theme Help and PRO"
+msgstr "Theme Help and PRO"
 
 #: functions.php:97
 msgid "7 Sidebar for theme Just Clean Shop"
@@ -155,4 +139,4 @@ msgstr "theme, demo, documentation"
 
 #: functions.php:118
 msgid "10% Discount - Code:"
-msgstr "10% Discount - Code:"
+msgstr "10% Скидка - Code:"

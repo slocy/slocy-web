@@ -4,8 +4,8 @@
 
 Theme Name      :   SKT Black
 Theme URI       :   http://www.sktthemes.net/themes/skt-black/
-Version         :   1.3.6
-Tested up to    :   WP 4.1.1
+Version         :   1.3.7
+Tested up to    :   WP 4.2.1
 Author          :   SKT Themes
 Author URI      :   http://www.sktthemes.net/
 

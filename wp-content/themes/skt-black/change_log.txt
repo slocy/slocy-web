@@ -27,3 +27,6 @@ i) Added lightbox licence.
 
 Version 1.3.6
 i) Slider script loading rectified.
+
+Version 1.3.7
+i) Resolved dropdown menu issue.

@@ -5,7 +5,7 @@
 			<div class="post-main">
 		
 				<div class="post">
-					<?php the_content(); ?><?php wp_link_pages( $args ); ?><?php comments_template(); ?>
+					<?php the_content(); ?><?php comments_template(); ?>
 				</div>
 			</div>
 			<?php endwhile; ?>			

@@ -88,7 +88,7 @@ function customizer_library_topshop_options() {
         'label'   => __( 'Show Top Bar', 'topshop' ),
         'section' => $section,
         'type'    => 'checkbox',
-        'description' => __( 'This will show/hide the top bar in the header', 'topshop' ),
+        'description' => __( 'This will show/hide the top bar in the header<br /><a href="http://support.kairaweb.com/knowledgebase/top-bar-not-showing/" target="_blank">Not working? See here</a><br /><br /><a href="http://support.kairaweb.com/knowledgebase/topshop-hooks-for-developers/" target="_blank">TopShop Premium has hooks</a> integrated for developers to hook on to.', 'topshop' ),
         'default' => 1,
     );
     
@@ -120,7 +120,7 @@ function customizer_library_topshop_options() {
         'label'   => __( 'Slider Categories', 'topshop' ),
         'section' => $section,
         'type'    => 'text',
-        'description' => __( 'Enter the ID\'s of the post categories you want to display in the slider. Eg: "13,17,19" (no spaces and only comma\'s)', 'topshop' )
+        'description' => __( 'Enter the ID\'s of the post categories you want to display in the slider. Eg: "13,17,19" (no spaces and only comma\'s)<br /><a href="http://support.kairaweb.com/knowledgebase/setup-the-topshop-default-slider/" target="_blank"><b>Follow instructions here</b></a>', 'topshop' )
     );
     $options['topshop-meta-slider-shortcode'] = array(
         'id' => 'topshop-meta-slider-shortcode',
@@ -128,6 +128,14 @@ function customizer_library_topshop_options() {
         'section' => $section,
         'type'    => 'text',
         'description' => __( 'Enter the shortcode give by meta slider.', 'topshop' )
+    );
+    
+    // Upsell Button Slider
+    $options['topshop-upsell-two-one'] = array(
+        'id' => 'topshop-upsell-two-one',
+        'label'   => __( 'Extra Slider Settings', 'topshop' ),
+        'section' => $section,
+        'type'    => 'upsell',
     );
 
 
@@ -185,6 +193,14 @@ function customizer_library_topshop_options() {
         'section' => $section,
         'type'    => 'color',
         'default' => $heading_font_color,
+    );
+    
+    // Upsell Button Styling
+    $options['topshop-upsell-two-two'] = array(
+        'id' => 'topshop-upsell-two-two',
+        'label'   => __( 'Extra Styling options', 'topshop' ),
+        'section' => $section,
+        'type'    => 'upsell',
     );
     
     $options['topshop-custom-css'] = array(

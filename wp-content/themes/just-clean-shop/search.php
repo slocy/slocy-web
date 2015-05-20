@@ -16,7 +16,7 @@
 			</div>
 			<?php else : ?>
 			<div class="post-main"> 
-				<h1><?php _e( 'Not found.', 'JustCleanShop' ); ?></h1>
+				<h1><?php _e( 'Not found.', 'just-clean-shop' ); ?></h1>
 			</div> 		
 			<?php endif; ?>
 		</div><div class="row">

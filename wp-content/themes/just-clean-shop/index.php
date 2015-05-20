@@ -5,12 +5,13 @@
 				<?php while (have_posts()) : the_post(); ?>
 			<div <?php post_class(); ?>>
 			<div class="post-main">
-				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <span><a href="<?php the_permalink(); ?>"><?php the_date(); ?></a></span></h1>
+				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> </h1>
 				<div class="post">
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-					<?php the_content( '' ); ?><div class="more-link"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'Read more...', 'JustCleanShop' ); ?></a></div>
+					<?php the_content( '' ); ?><div class="more-link"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'Read more...', 'just-clean-shop' ); ?></a></div>
+					<div class="date"><a href="<?php the_permalink(); ?>"><?php the_date(); ?></a></div>
 					<span class="entry-comments"><?php comments_popup_link( ) ?></span>
-					<div class="categories"><div class="tagi"><?php the_tags(); ?></div>	<?php _e( 'Categories:', 'JustCleanShop' ); ?> <?php the_category(' '); ?></div>
+					<div class="categories"><div class="tagi"><?php the_tags(); ?></div>	<?php _e( 'Categories:', 'just-clean-shop' ); ?> <?php the_category(' '); ?></div>
 				</div>
 			</div> 
 			</div> 
@@ -20,8 +21,8 @@
 		<div class="navigation"><?php wp_pagenavi(); ?></div>
 		<?php else : ?>
 						<div class="navigation">
-							<div class="alignleft"><?php previous_posts_link(__('&laquo; Newer', 'JustCleanShop')) ?></div>
-							<div class="alignright"><?php next_posts_link(__('Older &raquo;', 'JustCleanShop')) ?></div>
+							<div class="alignleft"><?php previous_posts_link(__('&laquo; Newer', 'just-clean-shop')) ?></div>
+							<div class="alignright"><?php next_posts_link(__('Older &raquo;', 'just-clean-shop')) ?></div>
 						</div>
 						<?php endif; ?>
 			<?php endif; ?>

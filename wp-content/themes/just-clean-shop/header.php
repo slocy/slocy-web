@@ -5,8 +5,8 @@
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />	
 	<meta name="viewport" content="width=device-width" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<?php wp_get_archives('type=monthly&format=link'); ?>
 	<?php wp_head(); ?>
+
 
 
 
@@ -37,8 +37,8 @@
 				</div>
 			<div class="head">
 			<?php if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-			<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
+			<h5 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h5>
+			<h6 class="site-description"><?php bloginfo( 'description' ); ?></h6>
 
 			</div>
 			
@@ -50,7 +50,7 @@
 								
 							<?php global $woocommerce; ?>
 			 
-						<?php _e( 'Cart:', 'JustCleanShop' ); ?> <a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'JustCleanShop'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'JustCleanShop'), $woocommerce->cart->cart_contents_count);?> <?php echo $woocommerce->cart->get_cart_total(); ?></a>
+						<?php _e( 'Cart:', 'just-clean-shop' ); ?> <a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'just-clean-shop'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'just-clean-shop'), $woocommerce->cart->cart_contents_count);?> <?php echo $woocommerce->cart->get_cart_total(); ?></a>
 					<?php endif; ?>	
 
 				</div>

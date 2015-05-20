@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-TopShop is the perfect theme to easily build an eCommerce store for yourself or for your clients. Integrating with the best plugins such as WooCommerce, SiteOrigin's Page Builder, Meta Slider and more, TopShop is easily scalable and very customizable, fitting to your online needs. Not only for eCommerce, TopShop is also great for building the basic business website and blog. With a clean simple design, developers too will love how customizable TopShop is. Go on... give it a try!
+TopShop is the perfect theme for all users from the beginner to the developer. With all our settings built neatly into the customizer you can easily edit the website live before publishing. We've packed a lot of settings into TopShop from 2 header layouts, full-width or boxed website, different blog layouts, adding social links, unlimited color selection and being able to change the colors of lots of elements from fonts to naviagtion and lots lots more. We've integrated with some of the best plugins such as SiteOrigin's Page Builder to easily build any page layouts you want, WooCommerce to simply turn your website into an online store, Meta Slider for slick responsive sliders and lots more. For the developers we've added hooks all around the theme to easily add on custom elements or extra functionality. There's also the option of upgrading to premium for a cheap price. Go on... give it a try!
 
 == License ==
 
@@ -70,6 +70,18 @@ View the theme settings under "Appearance" -> Customize.
 1. Featured Images work best at a minimum of 1100 wide and 420 high.
 
 == Changelog ==
+
+#### 1.2.0
+* Style tweaks/fixes
+* Updated Theme Description
+* Change screenshot.png
+* update TopShop 'upgrade page'
+
+#### 1.1.1
+* Styling tweaks
+* Added extra settings for slider and blog
+* update TopShop 'upgrade page'
+* Added help links to support site in WP customizer
 
 #### 1.1.0
 * Styling tweaks to WooCommerce

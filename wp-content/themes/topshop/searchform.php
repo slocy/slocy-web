@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying search forms in albar
+ * The template for displaying search forms in TopShop
  *
  */
 ?>

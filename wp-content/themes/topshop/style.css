@@ -3,8 +3,8 @@ Theme Name: TopShop
 Theme URI: http://kairaweb.com/theme/topshop/
 Author: Kaira
 Author URI: http://www.kairaweb.com/
-Description: TopShop is the perfect theme to easily build an eCommerce store for yourself or for your clients. Integrating with the best plugins such as WooCommerce, SiteOrigin's Page Builder, Meta Slider and more, TopShop is easily scalable and very customizable, fitting to your online needs. Not only for eCommerce, TopShop is also great for building the basic business website and blog. With a clean simple design, developers too will love how customizable TopShop is. Go on... give it a try!
-Version: 1.1.0
+Description: TopShop is the perfect theme for all users from the beginner to the developer. With all our settings built neatly into the customizer you can easily edit the website live before publishing. We've packed a lot of settings into TopShop from 2 header layouts, full-width or boxed website, different blog layouts, adding social links, unlimited color selection and being able to change the colors of lots of elements from fonts to naviagtion and lots lots more. We've integrated with some of the best plugins such as SiteOrigin's Page Builder to easily build any page layouts you want, WooCommerce to simply turn your website into an online store, Meta Slider for slick responsive sliders and lots more. For the developers we've added hooks all around the theme to easily add on custom elements or extra functionality. There's also the option of upgrading to premium for a cheap price. Go on... give it a try!
+Version: 1.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: topshop
@@ -496,9 +496,8 @@ a:active {
 
 .main-navigation li {
 	position: relative;
-}
-.main-navigation ul.nav-menu > li {
-    float: left;
+	display: block;
+	float: left;
 }
 
 .main-navigation a {
@@ -1604,6 +1603,10 @@ object {
         height: auto;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
     }
+    .main-navigation ul ul li {
+    	display: block;
+    	float: none;
+    }
     .main-navigation .site-container {
         padding: 0;
     }
@@ -1633,6 +1636,7 @@ object {
         display: none;
     }
     .main-navigation ul.nav-menu > li {
+    	background-color: #fff;
         border-bottom: 1px solid rgba(0, 0, 0, 0.03);
         display: block;
         width: 100%;

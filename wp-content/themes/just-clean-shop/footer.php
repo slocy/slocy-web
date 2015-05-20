@@ -33,7 +33,7 @@
 		</div>
 
 		<div class="mlogo">
-			<div class="sidebar-user2 span2"><?php _e( 'Powered by', 'JustCleanShop' ); ?> <a href="http://wordpress.org" target="_blank">WordPress</a>. <?php _e( 'Theme', 'JustCleanShop' ); ?> <a href="http://justpx.com/" target="_blank">Just Clean Shop</a></div>
+			<div class="sidebar-user2 span2"><?php _e( 'Powered by', 'just-clean-shop' ); ?> <a href="http://wordpress.org" target="_blank">WordPress</a>. <?php _e( 'Theme', 'just-clean-shop' ); ?> <a href="http://justpx.com/" target="_blank">Just Clean Shop</a></div>
 
 
 		</div>		

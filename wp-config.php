@@ -19,10 +19,10 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'wordpress');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'EeThaenud3ch');
+define('DB_PASSWORD', 'quoo5Xu6aChu');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -89,3 +89,7 @@ if ( count( $plugins ) === 0 ) {
     }
   }
 }
+
+define("FS_METHOD","direct");
+
+

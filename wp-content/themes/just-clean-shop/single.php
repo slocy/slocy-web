@@ -7,11 +7,12 @@
 				<div class="post">
 					<?php the_content(); ?>
 					
-					<?php wp_link_pages( $args ); ?>
-
-						<div class="categories"><div class="tagi"><?php the_tags(); ?></div>	<?php _e( 'Categories:', 'JustCleanShop' ); ?> <?php the_category(' '); ?></div>
-						<span class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'JustCleanShop' ) . '</span> %title' ); ?></span>
-						<span class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'JustCleanShop' ) . '</span>' ); ?></span>
+					<?php wp_link_pages( array(
+					'before' => '<div class="page-links">' . __( 'Pages:', 'just-clean-shop' ),
+					'after'  => '</div>',) );	?>
+						<div class="categories"><div class="tagi"><?php the_tags(); ?></div>	<?php _e( 'Categories:', 'just-clean-shop' ); ?> <?php the_category(' '); ?></div>
+						<span class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'just-clean-shop' ) . '</span> %title' ); ?></span>
+						<span class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'just-clean-shop' ) . '</span>' ); ?></span>
 					<?php comments_template(); ?>
 				</div>
 			</div>

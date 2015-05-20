@@ -4,7 +4,7 @@
  *
  * @package topshop
  */
-define( 'TOPSHOP_THEME_VERSION' , '1.1.0' );
+define( 'TOPSHOP_THEME_VERSION' , '1.2.0' );
 
 if ( ! function_exists( 'topshop_theme_setup' ) ) :
 /**
@@ -286,7 +286,7 @@ add_action( 'pre_get_posts', 'topshop_set_blog_queries' );
  */
 function topshop_premium_admin_menu() {
     global $topshop_upgrade_page;
-    $topshop_upgrade_page = add_theme_page( __( 'TopShop Premium', 'topshop' ), __( 'TopShop Premium', 'topshop' ), 'edit_theme_options', 'premium_upgrade', 'topshop_upgrade_page_render' );
+    $topshop_upgrade_page = add_theme_page( __( 'TOPSHOP Premium', 'topshop' ), __( 'TOPSHOP Premium', 'topshop' ), 'edit_theme_options', 'premium_upgrade', 'topshop_upgrade_page_render' );
 }
 
 add_action( 'admin_menu', 'topshop_premium_admin_menu' );

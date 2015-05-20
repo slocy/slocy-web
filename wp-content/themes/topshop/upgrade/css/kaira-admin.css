@@ -1,6 +1,10 @@
 .kaira-upgrade-page-wrap {
     max-width: 1300px;
 }
+.kaira-upgrade-page-wrap table td a img {
+    display: block;
+    margin: 0;
+}
 .kaira-upgrade-page-wrap #theme-settings-title a {
     background-image: url(../images/kaira_logo.png);
     display: block;
@@ -11,7 +15,7 @@
     padding: 20px 0 0;
 }
 .kaira-upgrade-page-wrap .description {
-    padding: 0 0 20px;
+    padding: 4px 0 30px;
 }
 .kaira-page-img {
     margin: 0 0 25px;
