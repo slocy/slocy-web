@@ -98,7 +98,7 @@
 }
 .woocommerce ul.products li.product,
 .woocommerce-page ul.products li.product {
-    width: 24%;
+    width: 48%;
     margin: 0 0.5% 35px;
     text-align: center;
     float: left;
