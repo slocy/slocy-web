@@ -4,7 +4,7 @@ Plugin Name: Wp Mail Bank
 Plugin URI: http://tech-banker.com
 Description: WP Mail Bank reconfigures the wp_mail() function and make it more enhanced.
 Author: Tech Banker
-Version: 1.18
+Version: 1.19
 Author URI: http://tech-banker.com
 License: GPLv3 or later
 */
@@ -360,7 +360,7 @@ function mail_bank_plugin_update_message($args)
 
 $is_option_auto_update = get_option("mail-bank-automatic-update");
 
-if($is_option_auto_update == "" || $is_option_auto_update == "1")
+if($is_option_auto_update === "" || $is_option_auto_update == "1")
 {
 	if (!wp_next_scheduled("mail_bank_auto_update"))
 	{

@@ -50,5 +50,9 @@ if (count($wpdb->get_var("SHOW TABLES LIKE '" . wp_mail_bank() . "'")) == 0)
 		)
 	);
 }
-
+$option_auto_update_mail = get_option("mail-bank-automatic-update");
+if($option_auto_update_mail == "")
+{
+	update_option("mail-bank-automatic-update", "1");
+}
 ?>

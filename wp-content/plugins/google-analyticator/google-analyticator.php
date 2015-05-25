@@ -1,15 +1,15 @@
 <?php
 /*
  * Plugin Name: Google Analyticator
- * Version: 6.4.8
+ * Version: 6.4.9
  * Plugin URI: http://www.videousermanuals.com/google-analyticator/?utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt
  * Description: Adds the necessary JavaScript code to enable <a href="http://www.google.com/analytics/">Google's Analytics</a>. After enabling this plugin you need to authenticate with Google, then select your domain and you're set.
- * Author: Video User Manuals Pty Ltd
- * Author URI: http://www.videousermanuals.com/?utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt
+ * Author: SumoMe
+ * Author URI: http://www.sumome.com/?src=wp_readme
  * Text Domain: google-analyticator
  */
 
-define('GOOGLE_ANALYTICATOR_VERSION', '6.4.8');
+define('GOOGLE_ANALYTICATOR_VERSION', '6.4.9');
 
 define('GOOGLE_ANALYTICATOR_CLIENTID', '1007949979410.apps.googleusercontent.com');
 define('GOOGLE_ANALYTICATOR_CLIENTSECRET', 'q06U41XDXtzaXD14E-KO1hti'); //don't worry - this don't need to be secret in our case
@@ -484,7 +484,15 @@ function ga_options_page() {
     <?php
 $addons = get_option("gapro_addons");
 if(!$addons){?>
-    <div id="vumga-sidebar" style="position: absolute; top: 0; right: 0; width: 250px; border: 1px solid #ccc; padding: 20px; background:#FFFFFF"> <a href="http://get.videousermanuals.com/ga-pro/?utm_campaign=analyticatorpro&utm_medium=plugin&utm_source=settings" target="_blank"><img src="<?php echo plugins_url('gapro-plugin-advert-sidebar.png', __FILE__ ); ?>" alt="Learn More" title="Learn More" /></a> </div>
+    <div id="vumga-sidebar" style="position: absolute; top: 40px; right: 0; width: 250px; border: 1px solid #ccc; padding: 20px; background:#FFFFFF"> 
+		<h3 style="text-align:center">Support us</h3>
+		<p>1- Check out our <a target="_blank" href="https://wordpress.org/plugins/sumome">SumoMe plugin</a></p>
+		<p>2- <a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/google-analyticator">Leave a :) Review</a></p>	
+		<p>3- Have a great day!</p>
+		<h3 style="text-align:center">Show off your analytics</h3>
+		<p>Use short code <b>[analytics]</b> anywhere on your site to show your analytics publicly.</p>
+
+	</div>
     <?php }?>
     <div style="margin-right: 320px;">
     <table class="form-table" cellspacing="2" cellpadding="5" width="100%">
@@ -587,6 +595,36 @@ if(!$addons){?>
 					  </p>
 						</td>
       </tr>
+      <tr>
+        <th valign="top" style="padding-top: 10px;"> <label for="<?php echo key_ga_widgets; ?>">
+            <?php _e('Support us', 'google-analyticator'); ?>:</label>
+        </th>
+        <td><?php
+						echo "<select name='".key_ga_show_ad."' id='".key_ga_show_ad."'>\n";
+
+						echo "<option value='1'";
+						if(get_option(key_ga_show_ad) == '1')
+							echo " selected='selected'";
+						echo ">" . __('Yes', 'google-analyticator') . "</option>\n";
+
+						echo "<option value='0' ";
+						if(get_option(key_ga_show_ad) == '0')
+							echo" selected='selected'";
+						echo ">" . __('No', 'google-analyticator') . "</option>\n";
+
+						echo "</select>\n";
+						?>
+          <p  class="setting-description">
+            <?php _e('Show our link on the admin dashboard. Pretty please.', 'google-analyticator'); ?>
+          </p></td>
+      </tr>
+	  <tr>
+			<td><b>View your Dashboard</b></td>
+			<td><a href="../wp-admin/index.php">Click here</a></td>
+	  </tr>
+	<tr>
+		<td><input type="submit" class="button button-primary" name="info_update" value="<?php _e('Save Changes', 'google-analyticator'); ?>" /></td>
+    </tr>
       <tr>
         <td colspan="2" style="padding-left:0"><h3>
             <?php _e('Tracking Settings', 'google-analyticator'); ?>
@@ -931,29 +969,6 @@ if(!$addons){?>
 						?>
           <p  class="setting-description">
             <?php _e('Disabling this option will completely remove the Dashboard Summary widget and the theme Stats widget. Use this option if you would prefer to not see the widgets.', 'google-analyticator'); ?>
-          </p></td>
-      </tr>
-      <tr>
-        <th valign="top" style="padding-top: 10px;"> <label for="<?php echo key_ga_widgets; ?>">
-            <?php _e('Display Ad', 'google-analyticator'); ?>:</label>
-        </th>
-        <td><?php
-						echo "<select name='".key_ga_show_ad."' id='".key_ga_show_ad."'>\n";
-
-						echo "<option value='1'";
-						if(get_option(key_ga_show_ad) == '1')
-							echo " selected='selected'";
-						echo ">" . __('Yes', 'google-analyticator') . "</option>\n";
-
-						echo "<option value='0' ";
-						if(get_option(key_ga_show_ad) == '0')
-							echo" selected='selected'";
-						echo ">" . __('No', 'google-analyticator') . "</option>\n";
-
-						echo "</select>\n";
-						?>
-          <p  class="setting-description">
-            <?php _e('You can disable the ad on the admin dashboard.', 'google-analyticator'); ?>
           </p></td>
       </tr>
       <tr<?php if(!$useAuth){echo ' style="display:none"';}?>>
@@ -1303,3 +1318,21 @@ function add_ga_admin_footer(){
 			})';
 		echo '</script>';
 }
+
+/**
+ * Shortcode
+ */
+
+//[analytics]
+function ga_analyticator_shortcode( $atts ){
+	# Include the Google Analytics Summary widget
+	require_once('google-analytics-summary-widget.php');
+	$google_analytics_summary = new GoogleAnalyticsSummary(TRUE);
+	// Wrap it with these divs to mimic the admin dashboard widget structure.
+	echo '<div id="google-analytics-summary"><div class="inside">';
+	$google_analytics_summary->widget();
+	echo '</div></div>';
+	return '';
+}
+
+add_shortcode( 'analytics', 'ga_analyticator_shortcode' );

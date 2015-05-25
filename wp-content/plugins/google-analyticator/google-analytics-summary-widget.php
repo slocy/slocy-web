@@ -13,7 +13,7 @@ class GoogleAnalyticsSummary
     /**
      * Start the process of including the widget
      **/
-    function GoogleAnalyticsSummary()
+    function GoogleAnalyticsSummary($shortcode = FALSE)
     {
         add_action('wp_dashboard_setup', array(
             $this,
@@ -27,12 +27,26 @@ class GoogleAnalyticsSummary
             $this,
             'addTopJs'
         ));
-        
+
+         // For shortcode
+        add_action('wp_footer', array(
+            $this,
+            'addJavascript'
+        ));
+        add_action('wp_head', array(
+            $this,
+            'addTopJs'
+        ));
+
         $this->qa_selecteddate = isset( $_REQUEST['qa_selecteddate'] ) ? wp_filter_kses( $_REQUEST['qa_selecteddate'] ) : '31';
         $this->date_before    = date('Y-m-d', strtotime( '-'.$this->qa_selecteddate.' days', strtotime( current_time( 'mysql' ) ) ) );
         $this->date_yesterday = date('Y-m-d', strtotime( '-1 days', strtotime( current_time( 'mysql' ) ) ) );
 		
         add_action( 'wp_ajax_ga_stats_widget', array( $this, 'ajaxWidget' ) );
+
+        if ($shortcode) {
+            add_action( 'wp_ajax_nopriv_ga_stats_widget', array( $this, 'ajaxWidget' ) );
+        }
     }
     
     /**
@@ -66,6 +80,9 @@ class GoogleAnalyticsSummary
     function addTopJs()
     {
 ?>
+        <style type="text/css">
+            #google-analytics-summary .legend table {width:auto;border:0;margin:0;}
+        </style>
 		<script type="text/javascript">
 		
 			//Tooltip 
@@ -121,11 +138,11 @@ class GoogleAnalyticsSummary
 						
 				function getAnalytics(){
                                 
-//                                        console.log( 'Start getAnalytics();' );
+                    // console.log( 'Start getAnalytics();' );
 					// Grab the widget data
 					jQuery.ajax({
 						type: 'post',
-						url: 'admin-ajax.php',
+						url: '<?php echo admin_url( 'admin-ajax.php' ); ?>',
 						data: {
 							action: 'ga_stats_widget',
 							qa_selecteddate: jQuery("#qa_selecteddate :selected").val(),
@@ -135,7 +152,6 @@ class GoogleAnalyticsSummary
 							jQuery("#analyticsloading").html('<img src="<?php echo admin_url("images/wpspin_light.gif")?>" border="0" /> ').show();
 						},
 						success: function(html) {
-							
 							jQuery("#analyticsloading").hide();
 							// Hide the loading message
 							jQuery('#google-analytics-summary .inside small').remove();
@@ -315,9 +331,7 @@ class GoogleAnalyticsSummary
       
         if(  get_option( key_ga_show_ad ) ) {
         echo '<p style="text-align:center">
-                <a href="http://www.videousermanuals.com/rd/ga-dashboard/" target="_BLANK">
-                    Learn how to use Google Analytics <br />
-                    To remove the guess work from your business </a></p>';
+                [Use the <a target="_blank" href="https://wordpress.org/plugins/sumome">SumoMe plugin</a> to get more traffic]</p>';
         }
         
         die();
@@ -370,7 +384,6 @@ class GoogleAnalyticsSummary
     function getVisitsGraph()
     {
         # Get the metrics needed to build the visits graph;
-
         try {
             $stats = $this->api->getMetrics('ga:visits', $this->date_before, $this->date_yesterday, 'ga:date', 'ga:date');
         }
