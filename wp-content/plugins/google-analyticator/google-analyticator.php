@@ -1,13 +1,16 @@
 <?php
 /*
  * Plugin Name: Google Analyticator
- * Version: 6.4.9
+ * Version: 6.4.9.3
  * Plugin URI: http://www.videousermanuals.com/google-analyticator/?utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt
  * Description: Adds the necessary JavaScript code to enable <a href="http://www.google.com/analytics/">Google's Analytics</a>. After enabling this plugin you need to authenticate with Google, then select your domain and you're set.
  * Author: SumoMe
  * Author URI: http://www.sumome.com/?src=wp_readme
  * Text Domain: google-analyticator
  */
+
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 define('GOOGLE_ANALYTICATOR_VERSION', '6.4.9');
 
@@ -491,7 +494,7 @@ if(!$addons){?>
 		<p>3- Have a great day!</p>
 		<h3 style="text-align:center">Show off your analytics</h3>
 		<p>Use short code <b>[analytics]</b> anywhere on your site to show your analytics publicly.</p>
-
+		<p>Use short code <b>[analytics-counter]</b> anywhere on your site to display the page view counter widget.</p>
 	</div>
     <?php }?>
     <div style="margin-right: 320px;">
@@ -1324,15 +1327,32 @@ function add_ga_admin_footer(){
  */
 
 //[analytics]
-function ga_analyticator_shortcode( $atts ){
+function ga_analyticator_shortcode( $atts ) {
 	# Include the Google Analytics Summary widget
 	require_once('google-analytics-summary-widget.php');
+
+	ob_start();
+
 	$google_analytics_summary = new GoogleAnalyticsSummary(TRUE);
 	// Wrap it with these divs to mimic the admin dashboard widget structure.
 	echo '<div id="google-analytics-summary"><div class="inside">';
 	$google_analytics_summary->widget();
 	echo '</div></div>';
-	return '';
+
+	return ob_get_clean();
+}
+
+//[analytics-counter]
+function ga_analyticator_counter_shortcode( $atts ) {
+	# Include Google Analytics Stats widget
+	require_once('google-analytics-stats-widget.php');
+	ob_start();
+
+	$google_analytics_widget = new GoogleStatsWidget(TRUE);
+
+	return ob_get_clean();
 }
 
 add_shortcode( 'analytics', 'ga_analyticator_shortcode' );
+add_shortcode( 'analytics-counter', 'ga_analyticator_counter_shortcode' );
+
