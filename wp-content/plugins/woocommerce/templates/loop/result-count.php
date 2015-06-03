@@ -15,8 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $wp_query;
 
-return;
-
 if ( ! woocommerce_products_will_display() )
 	return;
 ?>
