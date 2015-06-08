@@ -1,0 +1,266 @@
+
+2015-06-06 07:10:39  | INFO | +++++++++
+2015-06-06 07:10:39  | INFO | +Log Test
+2015-06-06 07:10:39  | INFO | +++++++++
+2015-06-06 07:14:20  | INFO | Purging media on edit BEGIN ===
+2015-06-06 07:14:20  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592.jpg
+2015-06-06 07:14:20  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592.jpg is currently not cached
+2015-06-06 07:14:20  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-196x196.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-196x196.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-380x268.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-380x268.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-1024x723.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-1024x723.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-500x500.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-500x500.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-500x500.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-500x500.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-800x800.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-800x800.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-352x230.jpg
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-352x230.jpg is currently not cached
+2015-06-06 07:14:21  | INFO | - Purging URL | http://beta.slocy.com/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/ is currently not cached
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/ is currently not cached
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/atom/ is currently not cached
+2015-06-06 07:14:21  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/rdf/ is currently not cached
+2015-06-06 07:14:21  | INFO | Purging media on edit END ^^^
+2015-06-06 07:16:05  | INFO | Purging media on edit BEGIN ===
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592.jpg
+2015-06-06 07:16:05  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592.jpg is currently not cached
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-196x196.jpg
+2015-06-06 07:16:05  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-196x196.jpg is currently not cached
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-380x268.jpg
+2015-06-06 07:16:05  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-380x268.jpg is currently not cached
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-1024x723.jpg
+2015-06-06 07:16:05  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-1024x723.jpg is currently not cached
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-500x500.jpg
+2015-06-06 07:16:05  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-500x500.jpg is currently not cached
+2015-06-06 07:16:05  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-500x500.jpg
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-500x500.jpg is currently not cached
+2015-06-06 07:16:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-800x800.jpg
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-800x800.jpg is currently not cached
+2015-06-06 07:16:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/05/IMG_3592-352x230.jpg
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/05/IMG_3592-352x230.jpg is currently not cached
+2015-06-06 07:16:06  | INFO | - Purging URL | http://beta.slocy.com/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/ is currently not cached
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/ is currently not cached
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/atom/ is currently not cached
+2015-06-06 07:16:06  | INFO | - - http://beta.slocy.com/purge/product/%e7%ba%a2%e8%84%b8%e6%9c%a8%e5%81%b6-%e4%b8%ad%e5%9b%bd%e6%88%8f%e6%9b%b2%e8%8a%b1%e8%84%b8/img_3592/feed/rdf/ is currently not cached
+2015-06-06 07:16:06  | INFO | Purging media on edit END ^^^
+2015-06-06 07:34:17  | INFO | Term taxonomy edited or deleted
+2015-06-06 07:34:17  | INFO | Term taxonomy 'Website Menus' edited, (tt_id '9', term_id '9', taxonomy 'nav_menu')
+2015-06-06 07:34:17  | INFO | Purging homepage 'http://beta.slocy.com/'
+2015-06-06 07:34:17  | INFO | - Purging URL | http://beta.slocy.com/
+2015-06-06 07:34:17  | INFO | - - http://beta.slocy.com/purge/ is currently not cached
+2015-06-06 07:34:17  | INFO | - - http://beta.slocy.com/purge/feed/ *** PURGED ***
+2015-06-06 07:34:17  | INFO | - - http://beta.slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-06 07:34:17  | INFO | - - http://beta.slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-06 07:49:39  | INFO | Term taxonomy edited or deleted
+2015-06-06 07:49:39  | INFO | Term taxonomy 'Website Menus' edited, (tt_id '9', term_id '9', taxonomy 'nav_menu')
+2015-06-06 07:49:39  | INFO | Purging homepage 'http://beta.slocy.com/'
+2015-06-06 07:49:39  | INFO | - Purging URL | http://beta.slocy.com/
+2015-06-06 07:49:39  | INFO | - - http://beta.slocy.com/purge/ is currently not cached
+2015-06-06 07:49:40  | INFO | - - http://beta.slocy.com/purge/feed/ *** PURGED ***
+2015-06-06 07:49:40  | INFO | - - http://beta.slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-06 07:49:40  | INFO | - - http://beta.slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-06 07:53:26  | INFO | Term taxonomy edited or deleted
+2015-06-06 07:53:26  | INFO | Term taxonomy 'Website Menus' edited, (tt_id '9', term_id '9', taxonomy 'nav_menu')
+2015-06-06 07:53:26  | INFO | Purging homepage 'http://beta.slocy.com/'
+2015-06-06 07:53:26  | INFO | - Purging URL | http://beta.slocy.com/
+2015-06-06 07:53:26  | INFO | - - http://beta.slocy.com/purge/ is currently not cached
+2015-06-06 07:53:26  | INFO | - - http://beta.slocy.com/purge/feed/ *** PURGED ***
+2015-06-06 07:53:26  | INFO | - - http://beta.slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-06 07:53:26  | INFO | - - http://beta.slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-07 10:46:31  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-196x196.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-196x196.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-380x253.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-380x253.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-1024x683.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-1024x683.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-500x500.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-500x500.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-500x500.jpg
+2015-06-07 10:46:31  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-500x500.jpg is currently not cached
+2015-06-07 10:46:31  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-800x800.jpg
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-800x800.jpg is currently not cached
+2015-06-07 10:46:32  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0870-352x230.jpg
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0870-352x230.jpg is currently not cached
+2015-06-07 10:46:32  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0870/
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0870/ is currently not cached
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0870/feed/ is currently not cached
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0870/feed/atom/ is currently not cached
+2015-06-07 10:46:32  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0870/feed/rdf/ is currently not cached
+2015-06-07 10:46:32  | INFO | Purging media on edit END ^^^
+2015-06-07 10:46:51  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:46:51  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915.jpg
+2015-06-07 10:46:51  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915.jpg is currently not cached
+2015-06-07 10:46:51  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-196x196.jpg
+2015-06-07 10:46:51  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-196x196.jpg is currently not cached
+2015-06-07 10:46:51  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-380x253.jpg
+2015-06-07 10:46:51  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-380x253.jpg is currently not cached
+2015-06-07 10:46:51  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-1024x683.jpg
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-1024x683.jpg is currently not cached
+2015-06-07 10:46:52  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-500x500.jpg
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-500x500.jpg is currently not cached
+2015-06-07 10:46:52  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-500x500.jpg
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-500x500.jpg is currently not cached
+2015-06-07 10:46:52  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-800x800.jpg
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-800x800.jpg is currently not cached
+2015-06-07 10:46:52  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0915-352x230.jpg
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0915-352x230.jpg is currently not cached
+2015-06-07 10:46:52  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0915/
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0915/ is currently not cached
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0915/feed/ is currently not cached
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0915/feed/atom/ is currently not cached
+2015-06-07 10:46:52  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0915/feed/rdf/ is currently not cached
+2015-06-07 10:46:52  | INFO | Purging media on edit END ^^^
+2015-06-07 10:46:59  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:46:59  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923.jpg
+2015-06-07 10:46:59  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923.jpg is currently not cached
+2015-06-07 10:46:59  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-196x196.jpg
+2015-06-07 10:46:59  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-196x196.jpg is currently not cached
+2015-06-07 10:46:59  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-380x253.jpg
+2015-06-07 10:46:59  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-380x253.jpg is currently not cached
+2015-06-07 10:46:59  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-1024x683.jpg
+2015-06-07 10:46:59  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-1024x683.jpg is currently not cached
+2015-06-07 10:46:59  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-500x500.jpg
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-500x500.jpg is currently not cached
+2015-06-07 10:47:00  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-500x500.jpg
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-500x500.jpg is currently not cached
+2015-06-07 10:47:00  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-800x800.jpg
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-800x800.jpg is currently not cached
+2015-06-07 10:47:00  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0923-352x230.jpg
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0923-352x230.jpg is currently not cached
+2015-06-07 10:47:00  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0923/
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0923/ is currently not cached
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0923/feed/ is currently not cached
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0923/feed/atom/ is currently not cached
+2015-06-07 10:47:00  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0923/feed/rdf/ is currently not cached
+2015-06-07 10:47:00  | INFO | Purging media on edit END ^^^
+2015-06-07 10:52:06  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-196x196.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-196x196.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-380x253.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-380x253.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-1024x683.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-1024x683.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-500x500.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-500x500.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-500x500.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-500x500.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-800x800.jpg
+2015-06-07 10:52:06  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-800x800.jpg is currently not cached
+2015-06-07 10:52:06  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0872-352x230.jpg
+2015-06-07 10:52:07  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0872-352x230.jpg is currently not cached
+2015-06-07 10:52:07  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0872/
+2015-06-07 10:52:07  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0872/ is currently not cached
+2015-06-07 10:52:07  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0872/feed/ is currently not cached
+2015-06-07 10:52:07  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0872/feed/atom/ is currently not cached
+2015-06-07 10:52:07  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0872/feed/rdf/ is currently not cached
+2015-06-07 10:52:07  | INFO | Purging media on edit END ^^^
+2015-06-07 10:52:34  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:52:34  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878.jpg
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-196x196.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-196x196.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-196x196.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-380x253.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-196x196.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-380x231.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-380x253.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-1024x683.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-380x231.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-1024x624.jpg
+2015-06-07 10:52:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-1024x683.jpg is currently not cached
+2015-06-07 10:52:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-500x500.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-500x500.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-500x500.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-1024x624.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-500x500.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-500x500.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-800x800.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-500x500.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-500x500.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-800x800.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0879-352x230.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-500x500.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-800x800.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0879-352x230.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0879/
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-800x800.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0878-352x230.jpg
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0879/ is currently not cached
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0879/feed/ is currently not cached
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0879/feed/atom/ is currently not cached
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0878-352x230.jpg is currently not cached
+2015-06-07 10:52:35  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0878/
+2015-06-07 10:52:35  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0879/feed/rdf/ is currently not cached
+2015-06-07 10:52:35  | INFO | Purging media on edit END ^^^
+2015-06-07 10:52:36  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0878/ is currently not cached
+2015-06-07 10:52:36  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0878/feed/ is currently not cached
+2015-06-07 10:52:36  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0878/feed/atom/ is currently not cached
+2015-06-07 10:52:36  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0878/feed/rdf/ is currently not cached
+2015-06-07 10:52:36  | INFO | Purging media on edit END ^^^
+2015-06-07 10:56:33  | INFO | Purging media on edit BEGIN ===
+2015-06-07 10:56:33  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884.jpg
+2015-06-07 10:56:33  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884.jpg is currently not cached
+2015-06-07 10:56:33  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-196x196.jpg
+2015-06-07 10:56:33  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-196x196.jpg is currently not cached
+2015-06-07 10:56:33  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-380x253.jpg
+2015-06-07 10:56:33  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-380x253.jpg is currently not cached
+2015-06-07 10:56:33  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-1024x683.jpg
+2015-06-07 10:56:33  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-1024x683.jpg is currently not cached
+2015-06-07 10:56:33  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-500x500.jpg
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-500x500.jpg is currently not cached
+2015-06-07 10:56:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-500x500.jpg
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-500x500.jpg is currently not cached
+2015-06-07 10:56:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-800x800.jpg
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-800x800.jpg is currently not cached
+2015-06-07 10:56:34  | INFO | - Purging URL | http://beta.slocy.com/wp-content/uploads/2015/06/IMG_0884-352x230.jpg
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/wp-content/uploads/2015/06/IMG_0884-352x230.jpg is currently not cached
+2015-06-07 10:56:34  | INFO | - Purging URL | http://beta.slocy.com/about-slocy/img_0884/
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0884/ is currently not cached
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0884/feed/ is currently not cached
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0884/feed/atom/ is currently not cached
+2015-06-07 10:56:34  | INFO | - - http://beta.slocy.com/purge/about-slocy/img_0884/feed/rdf/ is currently not cached
+2015-06-07 10:56:34  | INFO | Purging media on edit END ^^^
+2015-06-07 11:39:13  | INFO | Term taxonomy edited or deleted
+2015-06-07 11:39:13  | INFO | Term taxonomy 'Website Menus' edited, (tt_id '9', term_id '9', taxonomy 'nav_menu')
+2015-06-07 11:39:13  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-07 11:39:13  | INFO | - Purging URL | http://slocy.com/
+2015-06-07 11:39:13  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-07 11:39:13  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-07 11:39:13  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-07 11:39:13  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-07 14:45:43  | INFO | Purging media on edit BEGIN ===
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-e1433688270460.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-e1433688270460.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-196x196.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-196x196.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-264x380.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-264x380.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-712x1024.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-712x1024.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-500x500.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-500x500.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-500x500.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-500x500.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-800x800.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-800x800.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/wp-content/uploads/2015/06/IMG_0924-352x230.jpg
+2015-06-07 14:45:43  | INFO | - - http://slocy.com/purge/wp-content/uploads/2015/06/IMG_0924-352x230.jpg is currently not cached
+2015-06-07 14:45:43  | INFO | - Purging URL | http://slocy.com/?attachment_id=240
+2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/?attachment_id=240 is currently not cached
+2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-07 14:45:44  | INFO | Purging media on edit END ^^^
