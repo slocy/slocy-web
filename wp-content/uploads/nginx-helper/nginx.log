@@ -264,3 +264,11 @@
 2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
 2015-06-07 14:45:44  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
 2015-06-07 14:45:44  | INFO | Purging media on edit END ^^^
+2015-06-09 05:46:36  | INFO | Term taxonomy edited or deleted
+2015-06-09 05:46:36  | INFO | Term taxonomy 'Website Menus' edited, (tt_id '9', term_id '9', taxonomy 'nav_menu')
+2015-06-09 05:46:36  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 05:46:36  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
