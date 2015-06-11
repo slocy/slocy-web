@@ -272,3 +272,43 @@
 2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
 2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
 2015-06-09 05:46:36  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-09 12:50:43  | INFO | Term taxonomy edited or deleted
+2015-06-09 12:50:43  | INFO | Term taxonomy 'GuanYu' edited, (tt_id '16', term_id '16', taxonomy 'category')
+2015-06-09 12:50:43  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 12:50:43  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 12:50:43  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 12:50:43  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 12:50:43  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 12:50:43  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-09 12:52:17  | INFO | Term taxonomy edited or deleted
+2015-06-09 12:52:17  | INFO | Term taxonomy 'Puppet Heads' edited, (tt_id '10', term_id '10', taxonomy 'category')
+2015-06-09 12:52:17  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 12:52:17  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 12:52:17  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 12:52:17  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 12:52:17  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 12:52:17  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-09 12:53:06  | INFO | Term taxonomy edited or deleted
+2015-06-09 12:53:06  | INFO | Term taxonomy 'Zhang Embroidery' edited, (tt_id '15', term_id '15', taxonomy 'category')
+2015-06-09 12:53:06  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 12:53:06  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 12:53:06  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 12:53:06  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 12:53:06  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 12:53:06  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-09 12:53:19  | INFO | Term taxonomy edited or deleted
+2015-06-09 12:53:19  | INFO | Term taxonomy 'Puppet Heads' edited, (tt_id '10', term_id '10', taxonomy 'category')
+2015-06-09 12:53:19  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 12:53:19  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 12:53:19  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 12:53:20  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 12:53:20  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 12:53:20  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-09 12:53:29  | INFO | Term taxonomy edited or deleted
+2015-06-09 12:53:29  | INFO | Term taxonomy 'GuanYu' edited, (tt_id '16', term_id '16', taxonomy 'category')
+2015-06-09 12:53:29  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-09 12:53:29  | INFO | - Purging URL | http://slocy.com/
+2015-06-09 12:53:29  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-09 12:53:29  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-09 12:53:29  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-09 12:53:29  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
