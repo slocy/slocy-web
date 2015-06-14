@@ -1,0 +1,940 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIG PIX v2.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-28 03:27:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ BIGPIX
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:25
+#@ BIGPIX
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore."
+msgstr ""
+
+#: archive.php:30
+#@ BIGPIX
+msgid "Posts Categorized:"
+msgstr ""
+
+#: archive.php:35
+#@ BIGPIX
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:44
+#@ BIGPIX
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:50
+#@ BIGPIX
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:55
+#@ BIGPIX
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:60
+#@ BIGPIX
+msgid "Yearly Archives:"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma 
+#: archive.php:94
+#: home-post-format/home-audio.php:2
+#: home-post-format/home-chat.php:2
+#: home-post-format/home-link.php:2
+#: home-post-format/home-quote.php:2
+#: home-post-format/home-status.php:2
+#: home-post-format/home-video.php:2
+#: home-post-format/home.php:2
+#: search.php:44
+#: single.php:43
+#@ BIGPIX
+msgid ", "
+msgstr ""
+
+#: archive.php:94
+#: footer.php:37
+#: home-post-format/home-audio.php:2
+#: home-post-format/home-chat.php:2
+#: home-post-format/home-link.php:2
+#: home-post-format/home-quote.php:2
+#: home-post-format/home-status.php:2
+#: home-post-format/home-video.php:2
+#: home-post-format/home.php:2
+#: search.php:44
+#, php-format
+#@ BIGPIX
+msgid "%s"
+msgstr ""
+
+#: archive.php:96
+#: home-post-format/home-audio.php:5
+#: home-post-format/home-chat.php:5
+#: home-post-format/home-link.php:5
+#: home-post-format/home-quote.php:5
+#: home-post-format/home-status.php:5
+#: home-post-format/home-video.php:5
+#: home-post-format/home.php:5
+#: post-formats/format-image.php:90
+#: search.php:46
+#: single.php:132
+#, php-format
+#@ BIGPIX
+msgid "Posted on <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+msgstr ""
+
+#: archive.php:109
+#: page.php:57
+#: search.php:60
+#: single.php:156
+#@ BIGPIX
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive.php:110
+#: page.php:58
+#: search.php:61
+#: single.php:157
+#@ BIGPIX
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: comments.php:17
+#@ BIGPIX
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:17
+#@ BIGPIX
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:17
+#@ BIGPIX
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38
+#@ BIGPIX
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:39
+#@ BIGPIX
+msgid "More Comments &rarr;"
+msgstr ""
+
+#: comments.php:44
+#@ BIGPIX
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+#: header.php:77
+#: sidebar-page.php:16
+#: sidebar.php:16
+#@ BIGPIX
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+
+#: footer.php:37
+#@ BIGPIX
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:37
+#, php-format
+#@ BIGPIX
+msgid "Powered by %s"
+msgstr ""
+
+#: footer.php:37
+#@ BIGPIX
+msgid "http://wpdevshed.com"
+msgstr ""
+
+#: functions.php:74
+#@ BIGPIX
+msgid "Homepage Menu Widget Area"
+msgstr ""
+
+#: functions.php:75
+#@ BIGPIX
+msgid "The Menu Widget Area."
+msgstr ""
+
+#: functions.php:84
+#@ BIGPIX
+msgid "Posts Menu Widget Area"
+msgstr ""
+
+#: functions.php:85
+#@ BIGPIX
+msgid "The Posts Menu Widget Area."
+msgstr ""
+
+#: functions.php:94
+#@ BIGPIX
+msgid "Page Menu Widget Area"
+msgstr ""
+
+#: functions.php:95
+#@ BIGPIX
+msgid "The Page Menu Widget Area."
+msgstr ""
+
+#: functions.php:104
+#@ BIGPIX
+msgid "Archive Menu Widget Area"
+msgstr ""
+
+#: functions.php:105
+#@ BIGPIX
+msgid "The Archive Menu Widget Area."
+msgstr ""
+
+#: functions.php:114
+#@ BIGPIX
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:115
+#@ BIGPIX
+msgid "The Footer Widget Area."
+msgstr ""
+
+#: functions.php:153
+#@ BIGPIX
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:157
+#, php-format
+#@ BIGPIX
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: functions.php:157
+#@ BIGPIX
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:159
+#@ BIGPIX
+msgid "F jS, Y"
+msgstr ""
+
+#: functions.php:186
+#@ BIGPIX
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: functions.php:198
+#@ BIGPIX
+msgid "Secondary Color Scheme"
+msgstr ""
+
+#: functions.php:209
+#@ BIGPIX
+msgid "Button and link Color Scheme"
+msgstr ""
+
+#: functions.php:217
+#@ BIGPIX
+msgid "Site Logo"
+msgstr ""
+
+#: functions.php:219
+#@ BIGPIX
+msgid "Upload a logo to replace the default site name in the header"
+msgstr ""
+
+#: functions.php:227
+#@ BIGPIX
+msgid "Choose your logo (ideal width is 100-350px and ideal height is 35-40)"
+msgstr ""
+
+#: functions.php:234
+#@ BIGPIX
+msgid "Site favicon"
+msgstr ""
+
+#: functions.php:236
+#@ BIGPIX
+msgid "Upload a favicon"
+msgstr ""
+
+#: functions.php:244
+#@ BIGPIX
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr ""
+
+#: functions.php:251
+#@ BIGPIX
+msgid "Social Media Icons"
+msgstr ""
+
+#: functions.php:253
+#@ BIGPIX
+msgid "Optional media icons in the header"
+msgstr ""
+
+#: functions.php:261
+#@ BIGPIX
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: functions.php:272
+#@ BIGPIX
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: functions.php:283
+#@ BIGPIX
+msgid "Enter your Google+ url"
+msgstr ""
+
+#: functions.php:294
+#@ BIGPIX
+msgid "Enter your Pinterest url"
+msgstr ""
+
+#: functions.php:305
+#@ BIGPIX
+msgid "Enter your Linkedin url"
+msgstr ""
+
+#: functions.php:316
+#@ BIGPIX
+msgid "Enter your Youtube url"
+msgstr ""
+
+#: functions.php:327
+#@ BIGPIX
+msgid "Enter your Tumblr url"
+msgstr ""
+
+#: functions.php:338
+#@ BIGPIX
+msgid "Enter your Instagram url"
+msgstr ""
+
+#: functions.php:349
+#@ BIGPIX
+msgid "Enter your Flickr url"
+msgstr ""
+
+#: functions.php:360
+#@ BIGPIX
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#: functions.php:371
+#@ BIGPIX
+msgid "Enter your Yelp url"
+msgstr ""
+
+#: functions.php:382
+#@ BIGPIX
+msgid "Enter your RSS url"
+msgstr ""
+
+#: functions.php:393
+#@ BIGPIX
+msgid "Enter your email address"
+msgstr ""
+
+#: functions.php:402
+#@ BIGPIX
+msgid "Slider Options"
+msgstr ""
+
+#: functions.php:404
+#@ BIGPIX
+msgid "Adjust the behavior of the image slider."
+msgstr ""
+
+#: functions.php:415
+#@ BIGPIX
+msgid "Select Effect:"
+msgstr ""
+
+#: functions.php:419
+#@ BIGPIX
+msgid "Horizontal (Default)"
+msgstr ""
+
+#: functions.php:420
+#@ BIGPIX
+msgid "Vertical"
+msgstr ""
+
+#: functions.php:421
+#@ BIGPIX
+msgid "Tile Slide"
+msgstr ""
+
+#: functions.php:422
+#@ BIGPIX
+msgid "Blinds"
+msgstr ""
+
+#: functions.php:423
+#@ BIGPIX
+msgid "Shuffle"
+msgstr ""
+
+#: functions.php:432
+#@ BIGPIX
+msgid "Autoplay Speed in Seconds"
+msgstr ""
+
+#: functions.php:439
+#@ BIGPIX
+msgid "Disable Author Bio"
+msgstr ""
+
+#: functions.php:441
+#@ BIGPIX
+msgid "Option to disable the author bio in the posts."
+msgstr ""
+
+#: functions.php:450
+#@ BIGPIX
+msgid "Disable the Author Bio?"
+msgstr ""
+
+#: functions.php:457
+#@ BIGPIX
+msgid "Disable Related Posts"
+msgstr ""
+
+#: functions.php:459
+#@ BIGPIX
+msgid "Option to disable the related posts in the posts."
+msgstr ""
+
+#: functions.php:468
+#@ BIGPIX
+msgid "Disable the Related Posts?"
+msgstr ""
+
+#: functions.php:596
+#@ BIGPIX
+msgid "Read more"
+msgstr ""
+
+#: functions.php:770
+#: library/class/class-tgm.php:161
+#@ BIGPIX
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:771
+#: library/class/class-tgm.php:162
+#@ BIGPIX
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:772
+#: library/class/class-tgm.php:163
+#, php-format
+#@ BIGPIX
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:773
+#@ BIGPIX
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:774
+#: library/class/class-tgm.php:165
+#, php-format
+#@ BIGPIX
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:775
+#: library/class/class-tgm.php:166
+#, php-format
+#@ BIGPIX
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:776
+#: library/class/class-tgm.php:167
+#, php-format
+#@ BIGPIX
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:777
+#: library/class/class-tgm.php:168
+#, php-format
+#@ BIGPIX
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:778
+#: library/class/class-tgm.php:169
+#, php-format
+#@ BIGPIX
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:779
+#: library/class/class-tgm.php:170
+#, php-format
+#@ BIGPIX
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:780
+#: library/class/class-tgm.php:171
+#, php-format
+#@ BIGPIX
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:781
+#: library/class/class-tgm.php:172
+#, php-format
+#@ BIGPIX
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:782
+#: library/class/class-tgm.php:173
+#@ BIGPIX
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:783
+#: library/class/class-tgm.php:174
+#@ BIGPIX
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:784
+#: library/class/class-tgm.php:175
+#@ BIGPIX
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:785
+#: library/class/class-tgm.php:177
+#: library/class/class-tgm.php:1940
+#@ BIGPIX
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:786
+#, php-format
+#@ BIGPIX
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: image.php:29
+#, php-format
+#@ BIGPIX
+msgid "Posted on <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time>"
+msgstr ""
+
+#: index.php:63
+#@ BIGPIX
+msgid "No featured image set for this post."
+msgstr ""
+
+#: index.php:76
+#, php-format
+#@ BIGPIX
+msgid "Read %s"
+msgstr ""
+
+#: index.php:90
+#@ BIGPIX
+msgid "Previous"
+msgstr ""
+
+#: index.php:90
+#@ BIGPIX
+msgid "&#9664;"
+msgstr ""
+
+#: index.php:91
+#@ BIGPIX
+msgid "Next"
+msgstr ""
+
+#: index.php:91
+#@ BIGPIX
+msgid "&#9654;"
+msgstr ""
+
+#: library/bigpix.php:141
+#, php-format
+#@ dbt
+msgid "Page %s"
+msgstr ""
+
+#: library/bigpix.php:175
+#@ BIGPIX
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: library/bigpix.php:220
+#@ BIGPIX
+msgid "Read "
+msgstr ""
+
+#: library/bigpix.php:220
+#@ BIGPIX
+msgid "Read more &raquo;"
+msgstr ""
+
+#: library/bigpix.php:233
+#@ BIGPIX
+msgid "Embed Video"
+msgstr ""
+
+#: library/bigpix.php:273
+#@ BIGPIX
+msgid "Link"
+msgstr ""
+
+#: library/bigpix.php:315
+#@ BIGPIX
+msgid "Quote Content"
+msgstr ""
+
+#: library/bigpix.php:326
+#@ BIGPIX
+msgid "Quote Source"
+msgstr ""
+
+#: library/bigpix.php:366
+#@ BIGPIX
+msgid "Upload Audio File Here"
+msgstr ""
+
+#: library/bigpix.php:402
+#@ BIGPIX
+msgid "Insert Short Status Here"
+msgstr ""
+
+#: library/bigpix.php:441
+#@ BIGPIX
+msgid "Insert Chat Conversation here"
+msgstr ""
+
+#: library/class/class-tgm.php:164
+#@ BIGPIX
+msgid "Something went wrong."
+msgstr ""
+
+#: library/class/class-tgm.php:176
+#@ BIGPIX
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/class/class-tgm.php:179
+#, php-format
+#@ BIGPIX
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/class/class-tgm.php:180
+#@ BIGPIX
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/class/class-tgm.php:531
+#: library/class/class-tgm.php:2157
+#@ BIGPIX
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/class/class-tgm.php:1166
+#@ BIGPIX
+msgid "Private Repository"
+msgstr ""
+
+#: library/class/class-tgm.php:1169
+#@ BIGPIX
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/class/class-tgm.php:1174
+#@ BIGPIX
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/class/class-tgm.php:1177
+#@ BIGPIX
+msgid "Required"
+msgstr ""
+
+#: library/class/class-tgm.php:1177
+#@ BIGPIX
+msgid "Recommended"
+msgstr ""
+
+#: library/class/class-tgm.php:1180
+#@ BIGPIX
+msgid "Not Installed"
+msgstr ""
+
+#: library/class/class-tgm.php:1182
+#@ BIGPIX
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/class/class-tgm.php:1287
+#: library/class/class-tgm.php:1395
+#@ BIGPIX
+msgid "Install"
+msgstr ""
+
+#: library/class/class-tgm.php:1309
+#: library/class/class-tgm.php:1396
+#@ BIGPIX
+msgid "Activate"
+msgstr ""
+
+#: library/class/class-tgm.php:1358
+#, php-format
+#@ BIGPIX
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: library/class/class-tgm.php:1374
+#@ BIGPIX
+msgid "Plugin"
+msgstr ""
+
+#: library/class/class-tgm.php:1375
+#@ BIGPIX
+msgid "Source"
+msgstr ""
+
+#: library/class/class-tgm.php:1376
+#@ BIGPIX
+msgid "Type"
+msgstr ""
+
+#: library/class/class-tgm.php:1377
+#@ BIGPIX
+msgid "Status"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: library/class/class-tgm.php:1631
+#: library/class/class-tgm.php:178
+#@ BIGPIX
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class/class-tgm.php:1923
+#@ BIGPIX
+msgid "Install package not available."
+msgstr ""
+
+#: library/class/class-tgm.php:1924
+#, php-format
+#@ BIGPIX
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: library/class/class-tgm.php:1925
+#@ BIGPIX
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: library/class/class-tgm.php:1926
+#@ BIGPIX
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: library/class/class-tgm.php:1927
+#@ BIGPIX
+msgid "Plugin install failed."
+msgstr ""
+
+#: library/class/class-tgm.php:1928
+#@ BIGPIX
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: library/class/class-tgm.php:1939
+#@ BIGPIX
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/class/class-tgm.php:2053
+#@ BIGPIX
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/class/class-tgm.php:2054
+#, php-format
+#@ BIGPIX
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/class/class-tgm.php:2054
+#: library/class/class-tgm.php:2063
+#@ BIGPIX
+msgid "Show Details"
+msgstr ""
+
+#: library/class/class-tgm.php:2054
+#: library/class/class-tgm.php:2063
+#@ BIGPIX
+msgid "Hide Details"
+msgstr ""
+
+#: library/class/class-tgm.php:2055
+#@ BIGPIX
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/class/class-tgm.php:2056
+#, php-format
+#@ BIGPIX
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/class/class-tgm.php:2060
+#@ BIGPIX
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/class/class-tgm.php:2061
+#, php-format
+#@ BIGPIX
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/class/class-tgm.php:2062
+#, php-format
+#@ BIGPIX
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/class/class-tgm.php:2063
+#, php-format
+#@ BIGPIX
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/class/class-tgm.php:2064
+#@ BIGPIX
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/class/class-tgm.php:2065
+#, php-format
+#@ BIGPIX
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: page.php:39
+#: post-formats/format-aside.php:8
+#: post-formats/format-audio.php:17
+#: post-formats/format-chat.php:12
+#: post-formats/format-gallery.php:8
+#: post-formats/format-image.php:24
+#: post-formats/format-link.php:14
+#: post-formats/format-quote.php:13
+#: post-formats/format-status.php:12
+#: post-formats/format-video.php:10
+#: post-formats/format.php:8
+#@ BIGPIX
+msgid "Pages:"
+msgstr ""
+
+#: search.php:21
+#@ BIGPIX
+msgid "Search Results for:"
+msgstr ""
+
+#: single.php:40
+#, php-format
+#@ BIGPIX
+msgid "Posted on <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by <span class=\"author\">%3$s</span>"
+msgstr ""
+
+#: single.php:44
+#, php-format
+#@ BIGPIX
+msgid "under %s"
+msgstr ""
+
+#: single.php:79
+#@ BIGPIX
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: single.php:82
+#@ BIGPIX
+msgid "NEXT POST"
+msgstr ""
+
+#: single.php:92
+#@ BIGPIX
+msgid "Written by"
+msgstr ""
+
+#: single.php:101
+#@ BIGPIX
+msgid "Related Posts"
+msgstr ""
+
