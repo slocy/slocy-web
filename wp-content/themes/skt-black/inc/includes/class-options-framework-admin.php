@@ -189,7 +189,7 @@ class Options_Framework_Admin {
 	    <?php settings_errors( 'options-framework' ); ?>
 
 	    <div id="optionsframework-metabox" class="metabox-holder">
-        	<div style="padding-bottom:10px;"><a href="<?php echo esc_url(SKT_PRO_THEME_URL);?>" target="_blank"><?php _e('Buy PRO version for only $30 with more features','skt-black') ;?></a></div>
+        	<div style="padding-bottom:10px;"><a href="<?php echo esc_url(SKT_PRO_THEME_URL);?>" target="_blank"><?php _e('Buy PRO version for only $39 with more features','skt-black') ;?></a></div>
 		    <div id="optionsframework" class="postbox"  style="width:72%; float:left;">
 				<form action="options.php" method="post">
 				<?php settings_fields( 'optionsframework' ); ?>
@@ -213,7 +213,7 @@ class Options_Framework_Admin {
                 <div class="postbox">
                     <h3 class="hndle"><span><?php _e('Need more features?','skt-black'); ?></span></h3>
                     <div class="inside">
-                        <p><em><a href="<?php echo esc_url(SKT_PRO_THEME_URL);?>" target="_blank"><?php _e('Buy PRO version for only $30 with more features','skt-black'); ?></a></em></p>
+                        <p><em><a href="<?php echo esc_url(SKT_PRO_THEME_URL);?>" target="_blank"><?php _e('Buy PRO version for only $39 with more features','skt-black'); ?></a></em></p>
                     </div>
                 </div>
                  <div class="postbox">
