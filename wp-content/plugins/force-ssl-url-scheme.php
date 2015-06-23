@@ -3,9 +3,13 @@
 Plugin Name: Force SSL URL Scheme
 Plugin URI: https://gist.github.com/webaware/4688802
 Description: Force the protocol scheme to be HTTPS when is_ssl() doesn't work
-Version: 1.0.0
+Version: 1.0.0-fork (0333d0901593e5b272df5a4e29fa7f576058031a)
 Author: WebAware
 Author URI: http://www.webaware.com.au/
+Modified By: Beau Beveridge
+Modifications:
+- Remove JavaScript URL rewriting.
+- Use HTTP_X_FORWARDED_PROTO value instead of checking siteurl.
 
 @ref: http://wordpress.org/support/topic/ssl-insecure-needs-35-compatibility
 */
@@ -28,19 +32,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // if site is set to run on SSL, then force-enable SSL detection!
-if (stripos(get_option('siteurl'), 'https://') === 0) {
+if ( isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' ) {
     $_SERVER['HTTPS'] = 'on';
-
-    // add JavaScript detection of page protocol, and pray!
-    add_action('wp_print_scripts', 'force_ssl_url_scheme_script');
-}
-
-function force_ssl_url_scheme_script() {
-?>
-<script>
-if (document.location.protocol != "https:") {
-    document.location = document.URL.replace(/^http:/i, "https:");
-}
-</script>
-<?php
 }
