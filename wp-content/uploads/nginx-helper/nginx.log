@@ -530,3 +530,37 @@
 2015-06-17 08:07:17  | INFO | * * * * *
 2015-06-17 08:07:17  | INFO | * Purged Everything!
 2015-06-17 08:07:17  | INFO | * * * * *
+2015-06-24 06:15:21  | INFO | +++++++++
+2015-06-24 06:15:21  | INFO | +Log Test
+2015-06-24 06:15:21  | INFO | +++++++++
+2015-06-24 06:15:52  | INFO | +++++++++
+2015-06-24 06:15:52  | INFO | +Log Test
+2015-06-24 06:15:52  | INFO | +++++++++
+2015-06-24 09:13:35  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-24 09:13:35  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-24 09:13:35  | INFO | - Purging URL | http://slocy.com/
+2015-06-24 09:13:36  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-24 09:13:36  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-24 09:13:36  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-24 09:13:36  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-24 09:14:11  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-24 09:14:11  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-24 09:14:11  | INFO | - Purging URL | http://slocy.com/
+2015-06-24 09:14:11  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-24 09:14:11  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-24 09:14:11  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-24 09:14:11  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-24 09:16:33  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-24 09:16:33  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-24 09:16:33  | INFO | - Purging URL | http://slocy.com/
+2015-06-24 09:16:33  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-24 09:16:34  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-24 09:16:34  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-24 09:16:34  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-24 09:23:07  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-24 09:23:07  | INFO | Purging homepage 'http://slocy.com/'
+2015-06-24 09:23:07  | INFO | - Purging URL | http://slocy.com/
+2015-06-24 09:23:08  | INFO | - - http://slocy.com/purge/ is currently not cached
+2015-06-24 09:23:08  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
+2015-06-24 09:23:08  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-24 09:23:08  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***

@@ -1981,6 +1981,10 @@ div.related.products>ul.products>li.product {
   width: 42%;
 }
 
+.header-cart{
+  padding: 2px 0 12px 8px !important;
+}
+
 .slocy-text-center {
   text-align: center;
 }
