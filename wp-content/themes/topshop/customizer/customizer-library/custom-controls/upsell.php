@@ -24,7 +24,7 @@ class Customizer_Library_Upsell extends WP_Customize_Control {
 		?>
 		<div class="kaira-upsell">
 			<div class="kaira-upsell-title"><?php echo esc_html( $this->label ); ?></div>
-			<a href="<?php echo esc_url( 'http://app.sellwire.net/p/K3' ); ?>" target="_blank" class="kaira-upsell-btn"><?php echo __( 'Buy TopShop Premium', 'topshop' ); ?></a>
+			<a href="<?php echo esc_url( 'http://app.sellwire.net/p/TV' ); ?>" target="_blank" class="kaira-upsell-btn"><?php echo __( 'Buy TopShop Premium', 'topshop' ); ?></a>
             <div class="kaira-upsell-desc"><?php echo __( 'TopShop Premium is only <b>$15</b><br />See the <a href="' . admin_url( 'themes.php?page=premium_upgrade' ) . '" target="_blank">premium features</a>.', 'topshop' ) ?></div>
 		</div>
 		<?php

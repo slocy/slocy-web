@@ -1,5 +1,5 @@
 /**
- * Conica Theme Custom Functionality
+ * TopShop Custom Functionality
  *
  */
 ( function( $ ) {

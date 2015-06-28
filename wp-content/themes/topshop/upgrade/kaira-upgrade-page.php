@@ -1,7 +1,7 @@
 <div class="wrap kaira-upgrade-page-wrap">
     <?php
     $topshop_kaira_link = 'http://www.kairaweb.com';
-    $topshop_premium_link = 'http://app.sellwire.net/p/K3'; ?>
+    $topshop_premium_link = 'http://app.sellwire.net/p/TV'; ?>
     
     <h2 id="theme-settings-title">
         <a href="<?php echo $topshop_kaira_link; ?>" target="_blank"></a>
@@ -10,7 +10,7 @@
     <div class="kaira-page-description">
         <p><?php _e( '<a href="http://www.kairaweb.com/" target="_blank">Visit our website</a> to view our other Themes and Plugins', 'topshop' ); ?></p>
         
-        <p><?php _e( '<a href="http://app.sellwire.net/p/K3" target="_blank"><big>Upgrde to Premium</big></a> for only <big><b>$15</b></big>', 'topshop' ); ?></p>
+        <p><?php _e( '<a href="http://app.sellwire.net/p/TV" target="_blank"><big>Upgrade to Premium</big></a> for only <big><b>$15</b></big>', 'topshop' ); ?></p>
         
         <p><?php _e( 'TopShop Premium now has a <a href="http://support.kairaweb.com/knowledgebase/topshop-hooks-for-developers/" target="_blank">list of hooks</a> added for developers to hook on to.', 'topshop' ); ?>
     </div>
@@ -25,7 +25,7 @@
                     <img src="<?php echo get_template_directory_uri() . '/upgrade/images/site-layout-full-width.jpg'; ?>" alt="" class="kaira-page-img" /><br />
                     <img src="<?php echo get_template_directory_uri() . '/upgrade/images/site-layout-boxed.jpg'; ?>" alt="" class="kaira-page-img" />
                 </a>
-                <p class="description"><?php _e( '<a href="http://app.sellwire.net/p/K3" target="_blank">Upgrade to premium</a> to enable the option to select between the website being full width or boxed layout.', 'topshop' ); ?></p>
+                <p class="description"><?php _e( '<a href="http://app.sellwire.net/p/TV" target="_blank">Upgrade to premium</a> to enable the option to select between the website being full width or boxed layout.', 'topshop' ); ?></p>
             </td>
         </tr>
         <tr>

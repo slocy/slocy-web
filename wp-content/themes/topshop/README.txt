@@ -71,6 +71,11 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.2.1
+* Change custom header image to have flex width and height
+* Styling tweaks
+* change upgrade link
+
 #### 1.2.0
 * Style tweaks/fixes
 * Updated Theme Description

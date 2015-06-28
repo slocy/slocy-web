@@ -4,7 +4,7 @@
  *
  * @package topshop
  */
-define( 'TOPSHOP_THEME_VERSION' , '1.2.0' );
+define( 'TOPSHOP_THEME_VERSION' , '1.2.1' );
 
 if ( ! function_exists( 'topshop_theme_setup' ) ) :
 /**
@@ -71,8 +71,8 @@ function topshop_theme_setup() {
         'default-image' => '',
 		'width'         => 280,
 		'height'        => 91,
-		'flex-width'    => false,
-		'flex-height'   => false,
+		'flex-width'    => true,
+		'flex-height'   => true,
 		'header-text'   => false,
 	) );
 

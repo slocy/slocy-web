@@ -7,7 +7,6 @@
  * @package topshop
  */
 global $woocommerce;
-header("Access-Control-Allow-Origin: *"); 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
