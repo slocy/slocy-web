@@ -5,7 +5,7 @@ if (!is_user_logged_in())
 }
 else
 {
-	switch($gmb_role)
+	switch($role)
 	{
 		case "administrator":
 			$user_role_permission = "manage_options";

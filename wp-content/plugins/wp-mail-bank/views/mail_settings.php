@@ -191,7 +191,7 @@ else
 											<div class="layout-control-group">
 												<label class="layout-control-label"><?php _e("SMTP Username", mail_bank); ?> : <span class="error">*</span></label>
 												<div class="layout-controls">
-													<input type="text" id="ux_txt_username" name="ux_txt_username" placeholder="Please enter Username"  class="layout-span12"  value="<?php echo isset($email_data->smtp_username) ? $email_data->smtp_username : "" ;?>"/>
+													<input type="text" id="ux_txt_username" name="ux_txt_username" placeholder="Please enter Username"  class="layout-span12"  value="<?php echo isset($email_data->smtp_username) ? stripslashes($email_data->smtp_username) : "" ;?>"/>
 												</div>
 											</div>
 										</div>

@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Just clean shop v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-17 16:25+0200\n"
+"PO-Revision-Date: 2015-07-14 01:36+0300\n"
+"Last-Translator: JustPX <mail@justpx.com>\n"
+"Language-Team: JustPX <mail@justpx.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "Error 404 - Page Not Found"
+msgstr "Hata 404 - Sayfa Bulunamadı"
+
+#: footer.php:36
+msgid "Powered by"
+msgstr "Tarafından geliştirilmiştir"
+
+#: footer.php:36
+msgid "Theme"
+msgstr "Tema"
+
+#: functions.php:66
+msgid "Page"
+msgstr "Sayfa"
+
+#: functions.php:85
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d ürün"
+msgstr[1] "%d ürünler"
+
+#: header.php:53
+msgid "Cart:"
+msgstr "Sepet:"
+
+#: header.php:53
+msgid "View your shopping cart"
+msgstr "Sepeti görüntüle"
+
+#: index.php:11
+msgid "Read more..."
+msgstr "Daha fazla..."
+
+#: index.php:14
+msgid "Categories:"
+msgstr "Kategori:"
+
+#: index.php:24
+msgid "&laquo; Newer"
+msgstr "&laquo; En yeniler"
+
+#: index.php:25
+msgid "Older &raquo;"
+msgstr "En eskiler &raquo;"
+
+#: search.php:19
+msgid "Not found."
+msgstr "Bulunamadı"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Ara"
+
+#: single.php:12
+msgid "Categories "
+msgstr "Kategori "
+
+#: functions.php:91
+msgid "Theme Help and PRO"
+msgstr "Theme Help and PRO"
+
+#: functions.php:97
+msgid "7 Sidebar for theme Just Clean Shop"
+msgstr "7 Sidebar for theme Just Clean Shop"
+
+#: functions.php:101
+msgid "Site  "
+msgstr "Site  "
+
+#: functions.php:101
+msgid "Just Clean Shop free"
+msgstr "Just Clean Shop free"
+
+#: functions.php:101
+msgid "documentation (Logo, favicon, font, ...)."
+msgstr "documentation (Logo, favicon, font, ...)."
+
+#: functions.php:102
+msgid "Site "
+msgstr "Site "
+
+#: functions.php:102
+msgid "Just Clean Shop PRO "
+msgstr "Just Clean Shop PRO "
+
+#: functions.php:102
+msgid "theme, demo, documentation."
+msgstr "theme, demo, documentation."
+
+#: functions.php:103
+msgid "Localization Ready: English, French, German, Italian, Russian. Add"
+msgstr "Localization Ready: English, French, German, Italian, Russian. Add"
+
+#: functions.php:103
+msgid "Your language"
+msgstr "Your language"
+
+#: functions.php:109
+msgid "Premium Upgrade"
+msgstr "Premium Upgrade"
+
+#: functions.php:115
+msgid "Theme Just Clean Shop PRO"
+msgstr "Theme Just Clean Shop PRO"
+
+#: functions.php:117
+msgid "Site"
+msgstr "Site"
+
+#: functions.php:117
+msgid "Just Clean Shop PRO"
+msgstr "Just Clean Shop PRO"
+
+#: functions.php:117
+msgid "theme, demo, documentation"
+msgstr "theme, demo, documentation"
+
+#: functions.php:118
+msgid "10% Discount - Code:"
+msgstr "10% Discount - Code:"

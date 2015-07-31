@@ -37,6 +37,9 @@ The Following images present in the 'images/' folder:
 
 	Changelog:
 	
+v. 1.6.1
+- Turkish
+	
 v. 1.6
 - WordPress 4.2 ready
 
