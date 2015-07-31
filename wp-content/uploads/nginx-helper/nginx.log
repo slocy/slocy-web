@@ -585,3 +585,17 @@
 2015-06-29 14:05:43  | INFO | - - http://slocy.com/purge/feed/ *** PURGED ***
 2015-06-29 14:05:43  | INFO | - - http://slocy.com/purge/feed/atom/ *** PURGED ***
 2015-06-29 14:05:43  | INFO | - - http://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-30 15:28:03  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-30 15:28:03  | INFO | Purging homepage 'https://slocy.com/'
+2015-06-30 15:28:03  | INFO | - Purging URL | https://slocy.com/
+2015-06-30 15:28:03  | INFO | - - https://slocy.com/purge/ is currently not cached
+2015-06-30 15:28:03  | INFO | - - https://slocy.com/purge/feed/ *** PURGED ***
+2015-06-30 15:28:03  | INFO | - - https://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-30 15:28:03  | INFO | - - https://slocy.com/purge/feed/rdf/ *** PURGED ***
+2015-06-30 15:28:10  | INFO | Widget saved, moved or removed in a sidebar
+2015-06-30 15:28:10  | INFO | Purging homepage 'https://slocy.com/'
+2015-06-30 15:28:10  | INFO | - Purging URL | https://slocy.com/
+2015-06-30 15:28:10  | INFO | - - https://slocy.com/purge/ is currently not cached
+2015-06-30 15:28:10  | INFO | - - https://slocy.com/purge/feed/ *** PURGED ***
+2015-06-30 15:28:10  | INFO | - - https://slocy.com/purge/feed/atom/ *** PURGED ***
+2015-06-30 15:28:10  | INFO | - - https://slocy.com/purge/feed/rdf/ *** PURGED ***

@@ -2019,6 +2019,13 @@ div.related.products>ul.products>li.product {
   margin: 2% 15px;
 }
 
+.slocy-help-htwo{
+  font-size: 22px!important;
+  display: block!important;
+  color: red !important;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 780px) {
   .slocy-aboutus-team-ul {
     margin: 0 !important;
